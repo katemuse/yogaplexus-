@@ -1,0 +1,74 @@
+ 
+
+
+
+<h5 class="flash-notice"><%= flash[:notice] %>   </h5>   
+<!--  What follows is the list of poses that appears under "sequence" in sequence edit and show views.
+It implements drag and drop for changing of the order of the postures, dynamically creating unique ids for each dom id.  The ajax link_to_remote methods slide the hidden asana_details div with its contained partial into view or out of view.   -->
+<ul id="sequence-list">
+    <% if @poses %>
+		<% @poses.each do |pose| %> <%= error_messages_for :asanas_sequences %>
+			<li class="draggy-posture" id="posture_<%= pose.id%>">
+				                                      <div class="toggler">
+														   <%= link_to_remote 'toggle details', 
+																{
+																  :url => {:action => :reveal_details,
+																			:asana_id => pose.asana.id,
+																			:pose_id => pose.id,							   
+																			:position => pose.position 
+																			}, 
+																   :update => "asana_details_#{pose.position}",
+																   :complete => visual_effect(:toggle_slide, "asana_details_#{pose.position}", :duration => 0.5) 
+																},
+																:href => url_for(:action => :reveal_details,
+																			:asana_id => pose.asana.id,
+																			:pose_id => pose.id,							   
+																			:position => pose.position, 
+																			:id => @sequence.id
+																			)    #this doesn't work.  Can't degrade this feature yet.
+																%>  
+
+
+
+															<% if @sequence.user = current_user %>         
+															 | <%= link_to 'delete',{ :action=>:destroy, 
+																				:controller=>:asanas_sequences, 
+																				:id => pose.id}, 
+																				:confirm=> "are you sure?"  %>
+															   <% end %>
+																												     
+											                 </div>             
+				
+				
+				 <span style="vertical-align:top"><%= pose.position %>. <%= link_to pose.asana.english.capitalize, asana_path(pose.asana) %> </span>
+				<% if pose.asana.picture %>             
+				     <span class="asana-list-image">        
+				   			<%= picture_for(pose.asana, :medium) %>      
+				   		</span>     
+				<% end %>													   
+	      
+   				 <div id="asana_details_<%= pose.position %>" style="display:none">   
+   				 <!--In order for the toggle_slide effect to work display needs to start at none.  But in order to degrade gracefully display would need to be inline.  A conundrum.  
+   				 I tried  <% unless @no_ajax %>style="display:none"<% end %> but it engendered a
+   				 nil object error, "nil.to_sym" -->
+	
+	
+	<!-- This partial contains details on the asana in question.  In future the asana_details partial will have, besides "basic_instruction", also optional user-observations and other details about the posture (variations, etc).  -->
+						<%= render :partial => "asana_details", :locals => {:asana => pose.asana, :sequence => @sequence } %>   
+					</div>   
+					
+			</li>    
+<% end %>
+ <% end %>  
+</ul> 
+<!--
+I'm puzzled as to why drag and drop is disabled in Edit view.  I've thrown variables around until
+I made a big mess, but I never managed to follow this bug to the end.  The action is "sort", whether this partial is called from the edit or show views, so it's mysterious to me.
+-->
+<% if @author == current_user %>  
+<%= sortable_element "sequence-list",    {
+ 	:url => {:action=> :sort, :id => @sequence.id }
+	}
+%>  
+<% end %>
+ 

@@ -1,0 +1,12 @@
+<% if @asana %> 
+	<p class="asana-instruction"><%= h @asana.sanskrit %>:
+		<%=h @asana.basic_instruction %> 
+   	 
+	<% #if @asana.picture %>             
+	    <!-- <div class="asana-image">        
+	   			<%= picture_for(@asana) %>      
+	   		</div>    --> 
+	<% #end %>  
+	    </p>   
+		
+<% end %>   

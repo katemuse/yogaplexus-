@@ -1,0 +1,65 @@
+--- 
+users_004: 
+  name: sammy
+  salt: 81feb95d443cfcb99763c0dd59713512cef925cd
+  updated_at: 2009-01-19 01:39:40
+  activated_at: 
+  crypted_password: daa5efb683bf3db8a32d0628d79c1550f92b7a83
+  deleted_at: 
+  remember_token_expires_at: 
+  activation_code: 1be5054244d15f8c395844560893b8159af2bdd7
+  id: "5"
+  remember_token: 
+  login: sammy
+  school: 
+  email: sam_rdm@yahoo.com
+  created_at: 2009-01-19 01:39:40
+  state: pending
+users_001: 
+  name: Catherine Musinsky
+  salt: a5c8bcd3baf257229461f2e18d3a300444a9fc1a
+  updated_at: 2009-01-19 01:54:35
+  activated_at: 2008-12-30 19:01:15
+  crypted_password: 7c1253401b83934f9ba1c75e0602d5b775fe90d3
+  deleted_at: 
+  remember_token_expires_at: 2009-02-02 01:54:35
+  activation_code: 
+  id: "1"
+  remember_token: 7eb0a1d5eec93941da963ffd92698782332826ae
+  login: cath
+  school: 
+  email: cat@katemuse.com
+  created_at: 2008-12-30 19:00:39
+  state: active
+users_002: 
+  name: schlepp gonzo
+  salt: 2835f7dacddc3c4345c248bb7cd1eca23daa495c
+  updated_at: 2008-12-30 19:31:28
+  activated_at: 2008-12-30 19:31:28
+  crypted_password: 1ffb2e340aabf314ab137e887fae823deb7ba1d7
+  deleted_at: 
+  remember_token_expires_at: 
+  activation_code: 
+  id: "2"
+  remember_token: 
+  login: schlepp
+  school: 
+  email: catherine@musinsky.com
+  created_at: 2008-12-30 19:04:10
+  state: active
+users_003: 
+  name: SaraRDM
+  salt: a285406cb40a77bfd092c2c9c30c5bff38ecac95
+  updated_at: 2009-01-19 02:09:26
+  activated_at: 2009-01-19 01:46:28
+  crypted_password: ef8190e889a5aacac45dec9e4c68ec434b13cdf8
+  deleted_at: 
+  remember_token_expires_at: 
+  activation_code: 
+  id: "4"
+  remember_token: 
+  login: sara
+  school: 
+  email: sara_rdm@yahoo.com
+  created_at: 2009-01-19 00:29:13
+  state: active

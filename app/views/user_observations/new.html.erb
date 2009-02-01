@@ -1,0 +1,14 @@
+
+<%= render :partial => 'shared/_postDiv' %>   
+
+<h1>New user_observation</h1>
+
+<% form_tag :action => 'create' do %> 
+<%= error_messages_for :user_observations %>                      
+	   <%= render :partial => 'form' %> 
+	<%= submit_tag 'create' %>
+<% end %>
+<%#= link_to 'List', user_observations_path %>
+   
+
+<%= render :partial => 'shared/_postDivEnd' %>  

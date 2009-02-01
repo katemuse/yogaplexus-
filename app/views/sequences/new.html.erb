@@ -1,0 +1,28 @@
+	   <%= render :partial => 'shared/_postDiv' %>   
+              
+<% form_tag :action => 'create', :id => @sequence.id do |f| %>
+  <p> <%= error_messages_for :sequence %> </p>  
+<%#= f.hidden_field 'user_id', current_user.id %>  
+
+<h5 class="flash-notice"><%= error_messages_for :sequence %>   </h5>
+<p><%= label :sequence, :title, 'brief title' %>
+
+
+<%= text_field :sequence, :title %></p>                       
+	   <%= render :partial => 'sequence_list' %>
+	<%#= f.hidden_field :asana_type_id, :value=>1 %>
+	<%#= f.hidden_field :asana_type_id, :value=>1 %>  
+	<%= submit_tag 'create' %>
+<% end %>   
+
+<%= link_to 'List', :action=>:index %>
+    </div>   <!-- end post div from shared partial  -->
+<div class="sidebar">
+ 
+ 
+
+  </div>
+    
+
+
+<%= render :partial => 'shared/_postDivEnd' %>     

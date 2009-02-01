@@ -1,0 +1,223 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+
+	font-size: 16px;
+	color: #390507;
+}
+
+body, th, td, input, textarea, select, option {
+	font-weight: normal;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+   
+small { display:none;}
+#user_bar { display:none;}  
+.toggler {display:none; }
+.asana-list-image{
+	margin-left:200px}  
+
+
+h1, h2, h3 {
+	font-weight: normal;
+	color: #05080c;
+}
+
+h1 {
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: 2em;
+	font-family: Garamond, Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+	text-transform: lowercase;
+	letter-spacing: +1px;
+	font-size: 1.5em;
+	font-family: Garamond, Georgia, "Times New Roman", Times, serif;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+p, ul, ol {
+	line-height: 200%;
+	font-weight: normal;
+	letter-spacing: +1px;
+	font-size:.9em;
+}
+
+blockquote {
+	padding-left: 1em;
+}
+
+blockquote p, blockquote ul, blockquote ol {
+	line-height: normal;
+	font-style: italic;
+}
+
+a {
+	color: #1E0605;  
+	text-decoration:none;   
+	background-color:none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #A82500;
+}
+
+/* Header */
+
+#header {
+	width: 960px;
+	height: 200px;
+	margin: 0 auto;
+   
+}
+
+#header h1, #header p {
+	margin: 0;
+	color: #660000;
+}
+
+#header h1 {
+	font-size: 30px;
+}
+
+
+#header h1 {
+	padding-top: 100px;
+}
+
+#header a {
+	color: #393B85;
+}
+
+/* Page */
+
+#page {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* Content */
+
+#content {
+	float: left;
+   	/*width: 740px; */
+}
+
+.post, .post-wide {
+	padding: 0 0 20px 0;  
+	width: 100%;
+	float: left; 
+}
+.post h1 {
+	font-variant: small-caps;
+	font-size: small;
+} 
+
+.post ul li {
+	list-style: disc;
+}
+.title {
+	margin: 0;
+	border-bottom: 0 solid #7B9418;
+	font-size: 24px;
+	color: #333333;
+}
+
+.byline {
+	margin: 0;
+	color: #D79B00;
+}
+
+
+.asana-image {
+	float:right;
+} 
+
+.flash-notice  {
+	color: #8e310c;
+}
+/* Sidebar */
+
+.sidebar {   
+	display:none;
+
+}
+  
+.asana-image {
+	float:left;
+	border: thin black solid;
+} 
+
+.asana-instruction {
+	line-height: 1.5em;
+	font-variant: small-caps;
+}  
+
+
+/* Ajax classes and id's */ 
+
+#sequence-list li { 
+list-style: none; 
+cursor: -moz-grab; 
+} 
+.draggy-posture { 
+border: 1px solid gray;  
+list-style: none; 
+padding:1em;
+
+}
+
+errormsg {
+	font-variant: small-caps;
+	color: #743300
+  }
+/* USER bar */     
+
+#user_bar {  
+   	color:  #333333;  
+	clear: both;
+	width: 960px;
+	margin: 0 auto;
+	padding: 20px 0;
+   	text-align: left;
+	font-size: .8em;
+	/*border-bottom: 2px solid #7B9418; */
+	/*height:50px;
+		position:absolute;
+		top:0;  */
+}
+
+    
+#user-bar-greeting { 
+        
+		   
+			font-weight: bold;
+			color:  #4D4D4D;   
+		   
+}
+
+
+#user-bar-action      { 
+              
+	 }
+
+
+/* Footer */
+
+#footer {
+	display: none}
+#header p {
+	color: #3E4B0A;
+}

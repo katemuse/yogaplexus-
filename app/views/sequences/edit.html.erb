@@ -1,0 +1,26 @@
+<%= render :partial => 'shared/_postDiv' %>   
+<h1>Editing sequence</h1>
+ <% form_tag({:action => 'update', :id => @sequence.id}, :method => :put) do %>                       
+  
+	<h5 class="flash-notice"><%= flash[:notice] %>   </h5>   
+   	<p style="color:blue"><%= error_messages_for :sequence %>   </p>
+
+	<p><%= label :sequence, :title, 'brief title' %>
+		<%= text_field :sequence, :title %></p>  
+ 
+   			<%= render :partial => 'sequence_list', :locals => {:author => @author, :sequence => @sequence} -%>
+		<%= submit_tag 'update' %>           
+  <% end %>  
+	
+	
+  <p>  <%= link_to 'Show', {:action=> :show, :controller=> :sequences, :id=> @sequence} %> |
+	<%= link_to 'List', {:action=> :index, :controller=> :sequences} %>    </p>
+   </div>
+<div class="sidebar" style="width:200px">
+ <div id="asana-sequencer" >   
+	<%= render :partial => 'asana_sequencer' %>	
+  </div>
+
+
+ <%= render :partial => 'shared/_postDivEnd' %> 
+

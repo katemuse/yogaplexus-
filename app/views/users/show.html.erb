@@ -1,0 +1,24 @@
+<div class="post-wide">
+ <%# show profile of user %>
+<p>Name: <%= h @user.name %></p>
+<p>Email: <%= h @user.email %></p>
+<p>School of Yoga:<%= h @user.school %></p>
+
+<% for user_observation in @user.user_observations %>
+ <p><%=h user_observation.title %>:  <%=h user_observation.comment %> 
+<span class="small">-- posted <%= time_ago_in_words(user_observation.created_at) %> ago.
+
+	 <%= link_to "show with asana", :action=>:show, :id => user_observation.id %>  <!-- oddly, this takes you to the asana page -->
+     <% if current_user == user_observation.user %>
+ |  <%= link_to "edit", :action=>:edit, :id => user_observation.id %>  <!-- this only works with traditional routing.  go figure  -->
+	<% end %>  </span></p> 
+ </p>  
+  <% end %>
+
+<p> <small>
+<% if @user == current_user %>
+Edit profile (broken-- don't even try)
+<%#= link_to 'Edit profile', edit_user_path(@user) %> | <% end %>
+<%= link_to 'List users', users_path %>
+ <%= render :partial => 'shared/_postDivEnd' %>    </small>
+</div>

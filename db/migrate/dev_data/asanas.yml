@@ -1,0 +1,200 @@
+Warrior I: 
+    id: 1
+    sanskrit: Virabhadrasana I
+    english: Warrior I
+    basic_instruction: Stand in Virabhadra's lunge, front leg bent to no more than a 90°.  Pelvis steers toward parallel with the front of the mat.  Arms optionally rise overhead, either in yoga mudra or apart, spinning arms internally and palms toward the back of the mat.  
+    asana_type_id:  1
+    asana_subtype_id: 5
+Warrior II:  
+    id: 2
+    sanskrit: Virabhadrasana II
+    english: Warrior II
+    basic_instruction: Stand in Virabhadra's lunge, front leg bent to no more than a 90°.  Pelvis steers toward parallel with the side of the mat.  Arms stretch to either side.   
+    asana_type_id:  1
+    asana_subtype_id: 5 
+Ardha Chandrasana:
+    id: 3
+    sanskrit:  Ardha Chandrasana
+    english: Half moon
+    basic_instruction: From High Lunge with the left foot forward, inhale and step forward into the left foot, straightening the left leg. Straighten the right leg up parallel to the floor.  Staring at a point on the floor, place the left palm directly under the left shoulder and carefully bring the right hand to the right hip. Roll the right hip up and back so the hips face the side wall.  Inhale the right fingertips up towards the ceiling. Turn the head to face the side wall. Work on turning the whole torso to face the side wall.  Breathe and hold for 3-5 breaths.  To release, exhale and slowly bring both hands back to the floor and step the foot back into High Lunge.   Repeat on other side.   
+    asana_type_id:  9
+    asana_subtype_id: 5
+Siddhasana:
+    id: 4
+    sanskrit: Siddhasana 
+    english: Accomplished pose
+    basic_instruction: 1. With the buttocks on the floor, cross the legs, placing one foot to close to the inner thigh and then the other foot close to the ankle so both heels are almost at your midline. Rest the hands on the knees or in the lap with the palms facing up or down.   Optional- Use a hand mudra while seated in the posture.  2. Press the hip bones down into the floor and reach the crown of the head up to lengthen the spine. Drop the shoulders down and back, and press the chest towards the front of the room.   3. Relax the face, jaw, and belly. Let the tongue rest on the roof of the mouth, just behind the front teeth.  4. Breathe deeply through the nose down into the belly. Hold as long as comfortable.
+    asana_type_id: 13
+    asana_subtype_id: 4
+Ustrasana:
+    id: 5
+    sanskrit: Ustrasana
+    english: Camel
+    basic_instruction: 1. From Child or Hero pose, come up onto both knees, placing them hip width apart. Place the palms of the hands on the sacrum with the fingers pointed down.  2. Inhale and press the knees down reaching the crown of the head up to lengthen the spine. Exhale and press the hips forward, squeezing the buttocks and thighs and supporting your weight with the arms as you bend backwards. 3. Very carefully reach one hand down to the heel at a time, if you cannot reach the heels keep the hands on the sacrum. If it feels safe drop the head all the way back.   4. Holding tightly on to the heels with each hand, actively press the hips forward, lifting the chest up towards the ceiling.  5. Breathe and hold for 3-6 breaths.   6. To release, slowly bring one hand at a time back to the sacrum. With both hands on the sacrum, slowly inhale up, letting the head and neck be the last to come vertical. 
+    asana_type_id: 3
+    asana_subtype_id: 2
+Supine Twist:   
+    id: 6
+    sanskrit: Jathara Parivartanasana B
+    english: Supine twist B 
+    basic_instruction: 1. Lying on your back, bring your arms out to the sides with the palms facing down in a T position. Bend the knees in towards your chest and exhale both knees to the left side of  your body.  2. Hold onto the right foot with your left hand as you straighten the right leg out to the side. Turn and look at the right finger tips.  3. Keep the shoulders flat to the floor, gently kick out through the heel to straighten the leg, reach the arms away from each other, close the eyes, and relax into the posture.  4. Breathe and hold for 6-10 breaths.  5. To release, let go of the foot, bend the knees and inhale the hips back to the floor.  6. Repeat on other side.
+    asana_type_id: 4
+    asana_subtype_id: 6  
+Forward bend:
+    id: 7
+    sanskrit: Paschimottanasana
+    english: Seated forward bend
+    basic_instruction: From dandasana, pull the flesh from the sitsbones and raise both arms straight over the shoulders.  Maintaining natural curves in the spine ("flatback") allow the weight of your upper body to slowly lower your torso over your legs.  When the belly comes in contact with the thighs allow the head to rest on the calves.  Grasp one wrist with the other beyond the legs.              
+    asana_type_id: 2
+    asana_subtype_id: 4
+Standing forward bend:
+    id: 8
+    sanskrit: Uttanasana
+    english: standing forward bend
+    basic_instruction: standing evenly on both feet, feet touching or under the hips, fold from the hips.  Place hands to either side of the pinky toes.
+    asana_type_id: 2
+    asana_subtype_id: 5
+Boat:
+    id: 9
+    sanskrit: Navasana
+    english: Boat
+    basic_instruction: From dandasana, bend both knees and place the feet in parallel, soles on the floor, under the knees.  One by one lift each lower leg, levering from the knee, until it is parallel to the floor.  Advanced-- straighten both legs and hold them at as high an angle from the floor as strength and flexibility will permit.  In both versions, arms reach out towards the front of the mat, parallel to the floor.
+    asana_type_id: 7
+    asana_subtype_id: 4  
+    root_asana_id: 52
+Reverse warrior:
+    id: 10
+    sanskrit: Reverse warrior
+    english: Reverse warrior
+    basic_instruction: From Warrior 2, place back hand gently on lower leg and stretch forward arm above the head, elongating the torso on the side of the bending knee.  
+    asana_type_id: 5
+    asana_subtype_id: 5    
+    root_asana_id: 2
+Childs pose:
+    id: 11
+    sanskrit: balasana
+    english: child's pose
+    basic_instruction:  From hands and knees, allow the buttocks to rest on the heels and curl the torso over the folded legs. Arms stretch past head or rest at the sides of the body. 
+    asana_type_id: 6
+    asana_subtype_id: 1 
+utthita tadasana: 
+    id: 22
+    asana_subtype_id: 5
+    sanskrit: utthita tadasana
+    english: five pointed star
+    basic_instruction: Separate your legs a good 3 feet apart and your arms the height of your shoulders.  Breathe, lengthen and feel the connection of four limbs plus head and tail to the navel core.
+    asana_type_id: 7
+    root_asana_id: 30
+merudandasana:
+    id: 23
+    asana_subtype_id: 
+    sanskrit: merudandasana
+    english: balancing bear
+    basic_instruction:  From bound angle, hold on to each foot with each hand.  Inhale and lean backwards to lift both heals an inch or two off of the floor.   Stare at a point on the floor for balance, keep the shoulders down and back with the chest pressing forward and up towards the ceiling.    Slowly inhale and kick the legs into the arms, straightening the legs and lifting them up and out towards the corners of the room.  Breathe and hold for 2-6 breaths.  To release, slowly exhale bending the knees bringing the bottoms of the feet back together on the floor.   
+    asana_type_id: 9
+    root_asana_id: 52    
+dandayamna baddha konasana: 
+    id: 24
+    asana_subtype_id: 4
+    sanskrit: dandayamna baddha konasana
+    english: balancing bound angle
+    basic_instruction: Sit with your legs straight out in front of you, raising your pelvis on a blanket if your hips or groins are tight. Exhale, bend your knees, pull your heels toward your pelvis, then drop your knees out to the sides and press the soles of your feet together.   Bring your heels as close to your pelvis as you comfortably can. With the first and second finger and thumb, grasp the big toe of each foot. Always keep the outer edges of the feet firmly on the floor. If it isn't possible to hold the toes, clasp each hand around the same-side ankle or shin.   Sit so that the pubis in front and the tailbone in back are equidistant from the floor. The perineum then will be approximately parallel to the floor and the pelvis in a neutral position. Firm the sacrum and shoulder blades against the back and lengthen the front torso through the top of the sternum.    Never force your knees down. Instead release the heads of the thigh bones toward the floor. When this action leads, the knees follow.  
+    asana_type_id: 10
+    root_asana_id: 9      
+dhanurasana: 
+    id: 12
+    asana_subtype_id: 3
+    sanskrit: dhanurasana
+    english: bow
+    basic_instruction:   Lie on your belly, with the chin on the floor, arms along side your body and legs together.  Bend both knees and reach the hands back to hold onto the feet or ankles.  Inhale and kick the legs into the arms to lift the legs, head and chest off of the floor.  Keep the neck in line with the spine and relax the shoulders down from the spine. Lightly press the knees together, keeping them from splaying out to the sides.  Breathe and hold for 2-6 breaths, trying not to rock excessively on the belly as you breathe.  To release, exhale and slowly lower the chest, head and thighs to the floor. Release the arms and legs down to the floor. Turn the head to one side and rest.
+    asana_type_id: 3
+    root_asana_id: 14        
+bhujangasana: 
+    id: 13
+    asana_subtype_id: 4
+    sanskrit: bhujangasana
+    english: cobra
+    basic_instruction:  Lie on your belly, with the chin on the floor, palms flat on the floor under the shoulders and legs together.  Pull up the knee caps, squeeze the thighs and buttocks, engage mula bandha, and press the pubic bone down into the floor.  Without using the arms, inhale and lift the head and chest off of the floor, keeping the neck in line with the spine.  With the elbows close to your sides, press down into the palms and use the arms to lift you up even higher. Drop the shoulders down and back and press the chest forward. Keep the legs, buttocks, and mula bandha strong, and keep the pubic bone pressing down into the floor.  Breathe and hold for 2-6 breaths.
+    asana_type_id: 3
+    root_asana_id: 14    
+makarasana: 
+    id: 14
+    asana_subtype_id: 3
+    sanskrit: makarasana
+    english: crocodile
+    basic_instruction: Lie on your belly with your cheek resting on your forearms or on the floor and your a little apart. Rest. 
+    asana_type_id: 6
+    root_asana_id: 14        
+adho mukha shvanasana: 
+    id: 15
+    asana_subtype_id: 1
+    sanskrit: adho mukha shvanasana
+    english: downward facing dog
+    basic_instruction: From your hands and knees, spread your palms, index fingers parallel or slightly turned out, and turn your toes under. Exhale and lift your knees away from the floor. Lift the sitting bones toward the ceiling, and from your inner ankles draw the inner legs up into the groins. Firm the outer thighs and roll the upper thighs inward slightly. Narrow the front of the pelvis. Firm the outer arms and press the bases of the index fingers actively into the floor. From these two points lift along your inner arms from the wrists to the tops of the shoulders. Firm your shoulder blades against your back, then widen them and draw them toward the tailbone. Keep the head between the upper arms; don't let it hang.
+    asana_type_id: 7
+    root_asana_id: 44    
+sukhasana:
+    id:  16
+    asana_subtype_id: 4
+    sanskrit: sukhasana
+    english: easy pose
+    basic_instruction: Fold a thick blanket or two into a firm support about six inches high. Sit close to one edge of this support and stretch your legs out in front of your torso on the floor in Dandasana (Staff Pose).  Cross your shins, widen your knees, and slip each foot beneath the opposite knee as you bend your knees and fold the legs in toward your torso.    Relax the feet so their outer edges rest comfortably on the floor and the inner arches settle just below the opposite shin. You'll know you have the basic leg fold of Sukhasana when you look down and see a triangle, its three sides formed by the two thighs and the crossed shins. In Sukhasana, there should be a comfortable gap between the feet and the pelvis.  As always, you should sit with your pelvis in a relatively neutral position. To find neutral, press your hands against the floor and lift your sitting bones slightly off the support. As you hang there for a few breaths, make your thigh bones heavy, then slowly lower your sit bones lightly back to the support. Try to balance your pubic bone and tail bone so they're equidistant from the floor.  Either stack your hands in your lap, palms up, or lay your hands on your knees, palms down. Lengthen your tail bone toward the floor, firm your shoulder blades against your back to you're your upper torso, but don't overarch your lower back and poke your lower front ribs forward.   You can sit in this position for any length of time, but if you practice this pose regularly, be sure to alternate the cross of the legs. 
+    asana_type_id: 13
+    root_asana_id: 16    
+parighasana: 
+    id: 18
+    asana_subtype_id: 2
+    sanskrit: parighasana
+    english: gate
+    basic_instruction:   From a kneeling position, with the knees hip width apart, step the right leg straight out to the side with the foot flat on the floor, toes facing forward.  Inhale the left arm up to the ceiling, with the right hand resting palm down on the right leg.  Exhale the left arm to the right, dropping over the ear, and slide the right palm down towards the toes, keeping the arms straight.  Press out through the left hip, press down into the foot and knee, and reach out through the fingers and crown of the head. Keep the chin off the chest, looking straight ahead. Press the top shoulder to the back wall, keeping the chest open.  Breathe and hold for 3-8 breaths.
+    asana_type_id: 5
+    root_asana_id: 46
+half prayer twist: 
+    id: 19
+    asana_subtype_id: 1
+    sanskrit: ardha namaskar parsvakonasana
+    english: half prayer twist
+    basic_instruction:   From table position, step the right foot between the hands, bringing the right knee directly over the right ankle in a low lunge. The left knee and foot rests on the floor.  Bring the left elbow to the right knee and place the palms together in a prayer position.  Use the arms to press the right shoulder up and back, twisting the upper back. Look straight ahead or up towards the ceiling. The palms are at the center of the chest and the fingers are pointing up towards the throat.  Breathe and hold for 4-8 breaths.  To release, exhale the arms back down to the floor in a low lunge position.  Repeat on other side.
+    asana_type_id: 1
+    root_asana_id: 1    
+asana: 
+    id: 20
+    asana_subtype_id: 4
+    sanskrit: ardha merudandasana
+    english: half bear
+    basic_instruction: Half bear opens the hips, stretches the backs of the legs and stimulates the first chakra.  From bound angle, hold on to each foot with each hand.  Inhale and lift the right foot off of the floor. Straighten the right leg out towards the corner of the room, kicking out through the heel.  Make sure you are not leaning over to one side, gently pulling on the left foot to stay straight.  Drop the shoulders down and back, and press the chest open.  Breathe and hold for 4-6 breaths.  To release, slowly exhale and bend the right knee, bringing both feet together on the floor. Repeat on other side.
+    asana_type_id: 10
+    root_asana_id: 16    
+ardha mandalasana: 
+    id: 21
+    asana_subtype_id: 2
+    sanskrit: ardha mandalasana
+    english: half circle
+    basic_instruction: Half circle opens and stretches the whole side of the body from foot to fingers. It opens the chest and the hips and stimulates the respiratory and nervous systems.  From a kneeling position, with the knees hip width apart, step the right leg straight out to the side with the foot flat on the floor, toes facing forward.  Carefully lower the left hand to the floor, directly under the shoulder. Inhale the right arm up and over the head with the palm facing the floor.  Press the hips forward, arch the spine back, and let the head drop back.  Press the left foot into the floor and reach out through the left fingers, making a half circle shape with the left side of your body.  Breathe and hold for 3-8 breaths.
+    asana_type_id: 5
+    root_asana_id: 5             
+tadasana: 
+    id: 30
+    asana_subtype_id: 5
+    sanskrit: tadasana
+    english: mountain pose
+    basic_instruction: Stand with the bases of your big toes touching, heels slightly apart (so that your second toes are parallel). Lift and spread your toes and the balls of your feet, then lay them softly down on the floor. Rock back and forth and side to side. Gradually reduce this swaying to a standstill, with your weight balanced evenly on the feet. 
+    asana_type_id: 7
+    root_asana_id: 30        
+dandasana:  
+    id: 52
+    asana_subtype_id: 4
+    sanskrit: dandasana
+    english: Staff pose
+    basic_instruction: Sit on the floor with your legs together and extended in front of your torso. If your torso is leaning back, it may be because tight hamstrings are dragging the sitting bones toward the knees and the back of the pelvis toward the floor. It may be helpful to sit on a blanket or a bolster to lift the pelvis.    A simple way to check alignment is to sit with your back against a wall. The sacrum and the shoulder blades should touch the wall, but not lower back or the back of the head. Put a small rolled-up towel between the wall and the lower back.   Sit towards the front of the sitting bones, and adjust the pubis and tail bone equidistant from the floor. Without hardening the belly, firm the thighs, press them down against the floor (or your support), rotate them slightly toward each other, and draw the inner groins toward the sacrum. Flex your ankles, pressing out through your heels.  To lengthen your front torso perpendicular to the floor, think of energy streaming upward from the pubis to the sternum, then down the back from the shoulders to the tail bone. Then imagine the tail lengthening into the floor.  Imagine your spine as the "staff" at the vertical core of your torso, rooted firmly in the Earth, the support and pivot of all you do. Hold the pose for one minute or longer.
+    asana_type_id: 7
+    root_asana_id: 52
+ashwa sanchalanasana:     
+    id: 53
+    asana_subtype_id: null
+    sanskrit: ashwa sanchalanasana
+    english: low lunge
+    basic_instruction: Low lunge opens the hips and chest, stretches the groin and legs and lengthens the spine.  From table position, step the right foot between the hands, bringing the right knee directly over the right ankle. The left knee and the top of the foot rests on the floor.  Press the palms, fingers or fists into the floor to lift the crown of the head up towards the ceiling. Roll the shoulders down and back and press the chest forward. Look straight ahead with the chin parallel to the floor.  Breathe and hold for 4-8 breaths.  To release, bring the right knee down to the floor next to the left in table.  Repeat on other side.
+    id: 53
+    asana_subtype: 7    
+                        

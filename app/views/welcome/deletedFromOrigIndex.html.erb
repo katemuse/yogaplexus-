@@ -1,0 +1,86 @@
+       
+    <!-- <div class="post">
+   		<h2 class="title">Welcome</h2>
+   		<!--p class="byline"><small>Posted on August 25th, 2008 by <a href="#">admin</a> | <a href="#">Edit</a></small></p-->
+   		<div class="entry">
+
+
+   <!-- <h2>Here are some of the things you can do <% if !logged_in? %>(if you register and log in)<% end %></h2>  -->
+
+    
+       <% if logged_in? %>
+          <p>
+          <%= link_to 'Logout', :controller => :users, :action => :logout %>
+          </p>
+       <% end %>
+       <p> <%= link_to "Your Yoga Plexus Page: Print your sequence, reread your asana observations. Update your profile. ",
+                :controller => :users, :action => :home, :id=> current_user %>
+       </p>
+       <p> <%= link_to "Asana Sequence Panel: Enter the asanix.  Sequence your practice or class.",
+                :controller => :sequences, :action => :new %>
+       </p>
+       <p> <%= link_to "Browse the Asanas",
+                :controller => :asanas %>
+       </p>  
+   	   <p> <%= link_to "User submissions: browse users' observations by school of yoga",
+                :controller => :asanas %>
+       </p>  
+   </div><!--end .entry -->   </div> <!-- end .post  -->
+     <div class="sidebar">
+     
+    
+
+     <% if !logged_in? %>
+       <p>
+       <%= link_to 'Login or Register', :controller => :users, :action => :login %>
+       </p>
+     <% end %>
+    </div> <!-- end .sidebar  -->
+                                          --> <div class="post">
+		<h2 class="title">Welcome</h2>
+		<!--p class="byline"><small>Posted on August 25th, 2008 by <a href="#">admin</a> | <a href="#">Edit</a></small></p-->
+		<div class="entry">
+
+
+<!-- <h2>Here are some of the things you can do <%# if !logged_in? %>(if you register and log in)<% #end %></h2>  -->
+
+ 
+    <%# if logged_in? %>
+       <p>
+       <%#= link_to 'Logout', :controller => :users, :action => :logout %>
+       </p>
+    <% #end %>
+    <p> <%#= link_to "Your Yoga Plexus Page: Print your sequence, reread your asana observations. Update your profile. ",
+             :controller => :users, :action => :home, :id=> current_user %>
+    </p>
+    <p> <%#= link_to "Asana Sequence Panel: Enter the asanix.  Sequence your practice or class.",
+             :controller => :sequences, :action => :new %>
+    </p>
+    <p> <%#= link_to "Browse the Asanas",
+             :controller => :asanas %>
+    </p>  
+	   <p> <%#= link_to "User submissions: browse users' observations by school of yoga",
+             :controller => :asanas %>
+    </p>  
+</div><!--end .entry -->   </div> <!-- end .post  -->
+  <div class="sidebar">
+  
+  <%# if session[:is_admin] %>
+  
+  <h4>Adminstrator Activities</h4>
+  
+  <ul>
+    <li> <%#= link_to "Administer Asanas",
+             :controller => :asanas %>
+    </li>
+   
+  </ul>
+
+  <% #end %>
+
+  <%# if !logged_in? %>
+    <p>
+    <%= link_to 'Login or Register', :controller => :users, :action => :login %>
+    </p>
+  <%# end %>
+ </div> <!-- end .sidebar  -->

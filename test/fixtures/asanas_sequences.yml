@@ -1,0 +1,407 @@
+--- 
+asanas_sequences_056: 
+  updated_at: 2009-01-21 23:29:48
+  asana_id: "3"
+  id: "174"
+  sequence_id: "1"
+  position: "4"
+  created_at: 2009-01-21 23:29:48
+asanas_sequences_045: 
+  updated_at: 2009-01-20 05:26:56
+  asana_id: "7"
+  id: "140"
+  sequence_id: "12"
+  position: "1"
+  created_at: 2009-01-20 05:26:36
+asanas_sequences_034: 
+  updated_at: 2009-01-20 05:30:04
+  asana_id: "15"
+  id: "125"
+  sequence_id: "11"
+  position: "3"
+  created_at: 2009-01-19 07:07:32
+asanas_sequences_023: 
+  updated_at: 2009-01-19 06:53:11
+  asana_id: "15"
+  id: "108"
+  sequence_id: "8"
+  position: "4"
+  created_at: 2009-01-19 01:48:16
+asanas_sequences_012: 
+  updated_at: 2009-01-18 15:31:29
+  asana_id: "2"
+  id: "96"
+  sequence_id: "6"
+  position: "10"
+  created_at: 2009-01-16 16:52:26
+asanas_sequences_001: 
+  updated_at: 2009-01-19 15:15:22
+  asana_id: "1"
+  id: "78"
+  sequence_id: "2"
+  position: "3"
+  created_at: 2009-01-16 05:43:14
+asanas_sequences_057: 
+  updated_at: 2009-01-21 23:35:45
+  asana_id: "12"
+  id: "175"
+  sequence_id: "1"
+  position: "5"
+  created_at: 2009-01-21 23:35:45
+asanas_sequences_046: 
+  updated_at: 2009-01-20 05:26:45
+  asana_id: "22"
+  id: "142"
+  sequence_id: "12"
+  position: "2"
+  created_at: 2009-01-20 05:26:45
+asanas_sequences_035: 
+  updated_at: 2009-01-20 05:30:04
+  asana_id: "21"
+  id: "127"
+  sequence_id: "11"
+  position: "2"
+  created_at: 2009-01-19 07:07:53
+asanas_sequences_024: 
+  updated_at: 2009-01-19 06:53:11
+  asana_id: "14"
+  id: "110"
+  sequence_id: "8"
+  position: "5"
+  created_at: 2009-01-19 01:48:36
+asanas_sequences_013: 
+  updated_at: 2009-01-18 15:31:29
+  asana_id: "15"
+  id: "97"
+  sequence_id: "6"
+  position: "8"
+  created_at: 2009-01-16 16:54:13
+asanas_sequences_002: 
+  updated_at: 2009-01-16 22:44:35
+  asana_id: "5"
+  id: "79"
+  sequence_id: "6"
+  position: "4"
+  created_at: 2009-01-16 05:44:28
+asanas_sequences_058: 
+  updated_at: 2009-01-22 00:00:27
+  asana_id: "8"
+  id: "176"
+  sequence_id: "1"
+  position: "6"
+  created_at: 2009-01-22 00:00:27
+asanas_sequences_047: 
+  updated_at: 2009-01-20 05:27:06
+  asana_id: "14"
+  id: "143"
+  sequence_id: "12"
+  position: "3"
+  created_at: 2009-01-20 05:27:06
+asanas_sequences_036: 
+  updated_at: 2009-01-19 15:15:37
+  asana_id: "21"
+  id: "128"
+  sequence_id: "2"
+  position: "6"
+  created_at: 2009-01-19 15:15:37
+asanas_sequences_025: 
+  updated_at: 2009-01-19 02:13:00
+  asana_id: "7"
+  id: "112"
+  sequence_id: "9"
+  position: "3"
+  created_at: 2009-01-19 02:11:11
+asanas_sequences_014: 
+  updated_at: 2009-01-18 15:31:29
+  asana_id: "1"
+  id: "98"
+  sequence_id: "6"
+  position: "11"
+  created_at: 2009-01-16 22:45:00
+asanas_sequences_003: 
+  updated_at: 2009-01-21 22:50:53
+  asana_id: "1"
+  id: "80"
+  sequence_id: "1"
+  position: "1"
+  created_at: 2009-01-16 05:44:59
+asanas_sequences_048: 
+  updated_at: 2009-01-20 13:34:09
+  asana_id: "15"
+  id: "144"
+  sequence_id: "12"
+  position: "4"
+  created_at: 2009-01-20 13:34:09
+asanas_sequences_037: 
+  updated_at: 2009-01-19 15:15:40
+  asana_id: "18"
+  id: "129"
+  sequence_id: "2"
+  position: "7"
+  created_at: 2009-01-19 15:15:40
+asanas_sequences_026: 
+  updated_at: 2009-01-19 02:12:57
+  asana_id: "8"
+  id: "113"
+  sequence_id: "9"
+  position: "1"
+  created_at: 2009-01-19 02:11:13
+asanas_sequences_015: 
+  updated_at: 2009-01-18 22:04:46
+  asana_id: "5"
+  id: "99"
+  sequence_id: "7"
+  position: "5"
+  created_at: 2009-01-18 22:03:54
+asanas_sequences_004: 
+  updated_at: 2009-01-21 22:50:53
+  asana_id: "2"
+  id: "81"
+  sequence_id: "1"
+  position: "2"
+  created_at: 2009-01-16 05:45:01
+asanas_sequences_049: 
+  updated_at: 2009-01-21 06:52:58
+  asana_id: "6"
+  id: "151"
+  sequence_id: "1"
+  position: "3"
+  created_at: 2009-01-21 06:52:58
+asanas_sequences_038: 
+  updated_at: 2009-01-19 15:16:08
+  asana_id: "53"
+  id: "130"
+  sequence_id: "2"
+  position: "8"
+  created_at: 2009-01-19 15:16:08
+asanas_sequences_027: 
+  updated_at: 2009-01-19 02:11:29
+  asana_id: "52"
+  id: "115"
+  sequence_id: "9"
+  position: "4"
+  created_at: 2009-01-19 02:11:29
+asanas_sequences_016: 
+  updated_at: 2009-01-18 22:04:46
+  asana_id: "1"
+  id: "100"
+  sequence_id: "7"
+  position: "1"
+  created_at: 2009-01-18 22:04:07
+asanas_sequences_005: 
+  updated_at: 2009-01-20 00:12:42
+  asana_id: "11"
+  id: "83"
+  sequence_id: "2"
+  position: "2"
+  created_at: 2009-01-16 06:09:30
+asanas_sequences_050: 
+  updated_at: 2009-01-21 21:51:31
+  asana_id: "1"
+  id: "161"
+  sequence_id: "13"
+  position: "1"
+  created_at: 2009-01-21 21:51:31
+asanas_sequences_039: 
+  updated_at: 2009-01-20 00:20:05
+  asana_id: "23"
+  id: "131"
+  sequence_id: "2"
+  position: "9"
+  created_at: 2009-01-20 00:20:05
+asanas_sequences_028: 
+  updated_at: 2009-01-19 02:12:40
+  asana_id: "5"
+  id: "116"
+  sequence_id: "9"
+  position: "5"
+  created_at: 2009-01-19 02:12:40
+asanas_sequences_017: 
+  updated_at: 2009-01-18 22:04:46
+  asana_id: "2"
+  id: "101"
+  sequence_id: "7"
+  position: "4"
+  created_at: 2009-01-18 22:04:08
+asanas_sequences_006: 
+  updated_at: 2009-01-18 15:31:28
+  asana_id: "11"
+  id: "84"
+  sequence_id: "6"
+  position: "2"
+  created_at: 2009-01-16 15:16:22
+asanas_sequences_051: 
+  updated_at: 2009-01-21 21:51:49
+  asana_id: "8"
+  id: "162"
+  sequence_id: "13"
+  position: "2"
+  created_at: 2009-01-21 21:51:49
+asanas_sequences_040: 
+  updated_at: 2009-01-20 00:20:51
+  asana_id: "3"
+  id: "132"
+  sequence_id: "2"
+  position: "10"
+  created_at: 2009-01-20 00:20:51
+asanas_sequences_029: 
+  updated_at: 2009-01-19 15:15:25
+  asana_id: "7"
+  id: "120"
+  sequence_id: "2"
+  position: "5"
+  created_at: 2009-01-19 07:02:19
+asanas_sequences_018: 
+  updated_at: 2009-01-18 22:04:46
+  asana_id: "19"
+  id: "102"
+  sequence_id: "7"
+  position: "2"
+  created_at: 2009-01-18 22:04:09
+asanas_sequences_007: 
+  updated_at: 2009-01-18 15:31:29
+  asana_id: "12"
+  id: "86"
+  sequence_id: "6"
+  position: "7"
+  created_at: 2009-01-16 15:26:03
+asanas_sequences_052: 
+  updated_at: 2009-01-21 21:52:07
+  asana_id: "2"
+  id: "163"
+  sequence_id: "13"
+  position: "3"
+  created_at: 2009-01-21 21:52:07
+asanas_sequences_041: 
+  updated_at: 2009-01-20 00:51:36
+  asana_id: "11"
+  id: "133"
+  sequence_id: "10"
+  position: "1"
+  created_at: 2009-01-20 00:51:36
+asanas_sequences_030: 
+  updated_at: 2009-01-20 00:12:42
+  asana_id: "21"
+  id: "121"
+  sequence_id: "2"
+  position: "1"
+  created_at: 2009-01-19 07:02:24
+asanas_sequences_019: 
+  updated_at: 2009-01-18 22:04:46
+  asana_id: "53"
+  id: "103"
+  sequence_id: "7"
+  position: "3"
+  created_at: 2009-01-18 22:04:11
+asanas_sequences_008: 
+  updated_at: 2009-01-18 15:31:29
+  asana_id: "20"
+  id: "87"
+  sequence_id: "6"
+  position: "3"
+  created_at: 2009-01-16 15:27:25
+asanas_sequences_053: 
+  updated_at: 2009-01-21 21:52:10
+  asana_id: "19"
+  id: "164"
+  sequence_id: "13"
+  position: "4"
+  created_at: 2009-01-21 21:52:10
+asanas_sequences_042: 
+  updated_at: 2009-01-20 00:51:50
+  asana_id: "6"
+  id: "134"
+  sequence_id: "10"
+  position: "2"
+  created_at: 2009-01-20 00:51:50
+asanas_sequences_031: 
+  updated_at: 2009-01-19 15:15:25
+  asana_id: "12"
+  id: "122"
+  sequence_id: "2"
+  position: "4"
+  created_at: 2009-01-19 07:04:00
+asanas_sequences_020: 
+  updated_at: 2009-01-19 06:53:11
+  asana_id: "11"
+  id: "104"
+  sequence_id: "8"
+  position: "2"
+  created_at: 2009-01-19 01:47:46
+asanas_sequences_009: 
+  updated_at: 2009-01-18 15:31:29
+  asana_id: "23"
+  id: "88"
+  sequence_id: "6"
+  position: "5"
+  created_at: 2009-01-16 15:52:54
+asanas_sequences_054: 
+  updated_at: 2009-01-21 21:53:04
+  asana_id: "4"
+  id: "165"
+  sequence_id: "13"
+  position: "6"
+  created_at: 2009-01-21 21:52:26
+asanas_sequences_043: 
+  updated_at: 2009-01-20 00:55:10
+  asana_id: "14"
+  id: "135"
+  sequence_id: "10"
+  position: "3"
+  created_at: 2009-01-20 00:55:10
+asanas_sequences_032: 
+  updated_at: 2009-01-20 00:58:56
+  asana_id: "1"
+  id: "123"
+  sequence_id: "11"
+  position: "1"
+  created_at: 2009-01-19 07:06:49
+asanas_sequences_021: 
+  updated_at: 2009-01-19 06:53:11
+  asana_id: "24"
+  id: "105"
+  sequence_id: "8"
+  position: "1"
+  created_at: 2009-01-19 01:47:54
+asanas_sequences_010: 
+  updated_at: 2009-01-18 15:31:29
+  asana_id: "12"
+  id: "89"
+  sequence_id: "6"
+  position: "6"
+  created_at: 2009-01-16 16:16:03
+asanas_sequences_055: 
+  updated_at: 2009-01-21 21:53:04
+  asana_id: "15"
+  id: "166"
+  sequence_id: "13"
+  position: "5"
+  created_at: 2009-01-21 21:52:37
+asanas_sequences_044: 
+  updated_at: 2009-01-20 01:02:51
+  asana_id: "18"
+  id: "136"
+  sequence_id: "11"
+  position: "5"
+  created_at: 2009-01-20 01:02:51
+asanas_sequences_033: 
+  updated_at: 2009-01-19 22:36:08
+  asana_id: "14"
+  id: "124"
+  sequence_id: "11"
+  position: "4"
+  created_at: 2009-01-19 07:07:25
+asanas_sequences_022: 
+  updated_at: 2009-01-19 06:53:11
+  asana_id: "4"
+  id: "106"
+  sequence_id: "8"
+  position: "3"
+  created_at: 2009-01-19 01:48:02
+asanas_sequences_011: 
+  updated_at: 2009-01-18 15:31:29
+  asana_id: "2"
+  id: "95"
+  sequence_id: "6"
+  position: "9"
+  created_at: 2009-01-16 16:52:14

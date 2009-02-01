@@ -1,0 +1,18 @@
+<h2>User observations</h2>
+
+
+
+
+     
+<% if current_user %> 
+<%#= link_to 'add an observation', new_user_observation_path %>
+ <% form_for :user_observation, @user_observation, :url => {:action => :create, :controller => :user_observations} do |form| %>     
+		<%= error_messages_for [:user_observations, :asana] %>
+	<%= form.hidden_field :user_id, :value => current_user.id %>   
+	<%= form.hidden_field :asana_id, :value => @asana.id  %>  
+	<%= form.label :title, "Title:" %><%= form.text_field :title %>   <br/>
+  	<%= form.text_area  :comment  %>    <br/> 
+   	<%#= form.file_field :picture_file %>  <!-- <span class="admincontrols">Upload pdf</span>  --> 
+  <%= submit_tag "submit" %>
+<% end -%> <!-- end form   -->
+<% end %> <!-- end if current user   -->

@@ -1,0 +1,30 @@
+<%= render :partial => 'shared/_postDiv' %>   
+
+<h1>Editing User Observation</h1>
+
+
+
+<% form_for @user_observation do |f|%>                       
+	  
+
+								<h2 class="title"> add an observation: </h2>
+								  <%= f.label  :title, 'title' %>   
+								 <%= f.text_field  :title %>  <br />
+
+								<%= f.label :comment, 'comment' %>:<br />   
+								  <%= f.text_area :comment %>
+
+
+								<%= f.label :asana_id, 'asana' %>:    
+								 <%= f.collection_select  :asana_id, @asanas, :id, :english, :selected_value => @asana %>    
+								
+								           
+	<%= submit_tag 'update' %>
+<% end %>
+
+
+
+
+<%= link_to 'Show with asana', @user_observation %> |
+<%= link_to 'List user observations', user_observations_path %>
+  <%= render :partial => 'shared/_postDivEnd' %>  

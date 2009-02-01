@@ -1,0 +1,27 @@
+<div class="post-wide">    
+	
+	<p>
+  <b>Name:</b>
+  <%=h @asana_subtype.name %>
+</p>
+
+
+
+<p>
+  <b>Description:</b>
+  <%=h @asana_subtype.description %>
+</p>
+  
+<p>
+  <b>Asanas:</b>
+<% for asana in @asana_subtype.asanas %>
+  <%= link_to "#{asana.sanskrit} (#{asana.english})", asana %> <br/>
+<% end %>
+</p>
+
+ 
+
+
+<%= link_to 'Edit', edit_asana_subtype_path(@asana_subtype) %> |
+<%= link_to 'List', asana_subtypes_path %>
+</div>

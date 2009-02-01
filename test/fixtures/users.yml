@@ -1,0 +1,52 @@
+--- 
+users_001: 
+  name: Catherine Musinsky
+  salt: a5c8bcd3baf257229461f2e18d3a300444a9fc1a
+  updated_at: 2009-01-21 22:00:24
+  activated_at: 2008-12-30 19:01:15
+  crypted_password: 7c1253401b83934f9ba1c75e0602d5b775fe90d3
+  deleted_at: 
+  remember_token_expires_at: 
+  activation_code: 
+  admin: "1"
+  id: "1"
+  remember_token: 
+  login: cath
+  school: Embodyoga
+  email: cat@katemuse.com
+  created_at: 2008-12-30 19:00:39
+  state: active
+users_002: 
+  name: SaraRDM
+  salt: a285406cb40a77bfd092c2c9c30c5bff38ecac95
+  updated_at: 2009-01-19 02:09:26
+  activated_at: 2009-01-19 01:46:28
+  crypted_password: ef8190e889a5aacac45dec9e4c68ec434b13cdf8
+  deleted_at: 
+  remember_token_expires_at: 
+  activation_code: 
+  admin: 
+  id: "4"
+  remember_token: 
+  login: sara
+  school: 
+  email: sara_rdm@yahoo.com
+  created_at: 2009-01-19 00:29:13
+  state: active
+users_003: 
+  name: Cate Muse
+  salt: d84d76e09e3519fa1ad1fb61dfed10e6039dd4a2
+  updated_at: 2009-01-21 05:35:36
+  activated_at: 2009-01-21 05:34:55
+  crypted_password: 530fc14bfc1fdaa5d2bcfa15e9f3f9ebd7493507
+  deleted_at: 
+  remember_token_expires_at: 2009-02-04 05:35:36
+  activation_code: 
+  admin: 
+  id: "12"
+  remember_token: ce3b435ddbe457edda91c707c42d34a4d07da1f8
+  login: catemuse
+  school: 
+  email: catemuse@gmail.com
+  created_at: 2009-01-21 05:19:48
+  state: active

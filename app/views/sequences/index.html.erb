@@ -1,0 +1,20 @@
+<div class="post-wide">   
+<!--h1>Listing sequences</h1-->
+      
+
+<% for sequence in @sequences %>
+                              <% debug :sequence %>    
+			<p><%= link_to sequence.title, {:action=>:show, :id=> sequence} %>:
+  				<small><%= link_to "Created by #{sequence.user.name} #{time_ago_in_words(sequence.created_at)} ago", 
+						{:action=>:home, :controller=> :users, :id=> sequence.user.id}  %>  
+   							<% if sequence.user==current_user %> 
+								 | <%= link_to "edit", {:action=>:edit, :controller=> :sequences, :id=> sequence}%>  
+
+  																						<% end %> </small>    </p>  
+<% end %>
+
+
+<p></p>
+  <% if current_user %>
+<h3><%= link_to 'Create your own sequence', {:action=>:new, :controller=> :sequences}%>  </h3>
+ <% end %> <%= render :partial => 'shared/_postDivEnd' %>  

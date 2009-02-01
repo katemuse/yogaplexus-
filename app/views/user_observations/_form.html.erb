@@ -1,0 +1,13 @@
+                                 
+
+<h2 class="title"> add an observation: </h2>
+  <%= label :user_observation, :title, 'title' %>   
+ <%= text_field :user_observation,  :title %>
+
+<%= label  :user_observation, :comment, 'comment' %><br />   
+  <%= text_area  :user_observation, :comment, :rows => '5' %>
+
+
+<%= label  :user_observation, :asana_id, 'asana' %><br />   
+ <%= collection_select :user_observation, :asana_id, @asanas, :id, :english, :selected_value => @asana %>    
+                   

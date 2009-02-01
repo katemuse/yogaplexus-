@@ -1,0 +1,38 @@
+<div="post-wide">
+
+<h2>New asana</h2> 
+
+<% form_for (Asana.new, :html => { :multipart => true}) do |f|%> 
+ <h5 class="flash-notice"><%= flash[:notice] %>  </h5> 
+  
+<p> <%= error_messages_for :asana %> </p>        <p>
+    <%= f.label :sanskrit %>: 
+    <%= f.text_field :sanskrit, :size=>30 %>             
+  </p>
+  <p>
+    <%= f.label :english, "English" %>: 
+    <%= f. text_field :english %>                       
+  </p>
+  <p>
+    <%= f.label :basic_instruction, "Basic instruction" %>:<br />
+    <%= f. text_area :basic_instruction %>                         
+  </p> 
+
+<p>  
+   <%= f.collection_select :asana_type_id, @asana_types, :id, :name %>  <!-- , :selected_value => @asana_type   -->
+   <%= f.collection_select :asana_subtype_id, @asana_subtypes, :id, :name %>               
+   </p>   
+        
+  <p>   <%= f.label :picture %>:
+	<%= file_field_tag :picture_file %> 
+	<span class="admincontrols">Upload jpeg, gif or png files up to 500 kb. <br/> Unless new or different image is desired, this may be left blank. </span> 
+  </p>                      
+	   <%= render :partial => 'form' %> 
+	 
+    <%= submit_tag 'create' %>  
+	 
+<% end %>
+<%= link_to 'List', asanas_path %>
+   
+
+</div>

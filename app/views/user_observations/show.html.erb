@@ -1,0 +1,23 @@
+<%= render :partial => 'shared/_postDiv' %>   
+
+
+<p>
+
+  <h2><%=h @user_observation.title %>   </h2>
+</p>
+<p>
+  <b>Comment:</b>
+  <%=h @user_observation.comment %>    
+
+</p>
+
+<p>
+  <b>User:</b>
+  <%=h @user_observation.user.name %>    
+
+</p>
+
+
+<%= link_to 'Edit', edit_user_observation_path(@user_observation) %> |
+<%= link_to 'List', user_observations_path %>
+<%= render :partial => 'shared/_postDivEnd' %>  

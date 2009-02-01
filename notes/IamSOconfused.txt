@@ -1,0 +1,14 @@
+I am SO CONFUSED!  ARRRGGGGh!
+ 
+My Sequence form is the most complicated.  In a single region I need to have:
+one form that just wants to collect preferences (pose type and pose subtype) so the app can narrow what's listed in the next section.  If the user selects either type or subtype the next section will list only the poses that are children of that type/subtype.  If the user selects both type & subtype the list will include only poses in both sets (overlapping).  I want to do something like   <% form_tag {:action =>"accept_asana_categories_and_return_asanas", :id => @asana_type } do %>.. but instead of choosing just @asana_type I want to return either/both asana_type and asana_subtype as parameters to "accept_asana_categories_and_return_asanas".   
+
+Currently I'm thinking I need to invoke an sequences action separate from the url, and specify in the form_tag that the url should be "#".
+
+
+
+The next form needs to list a collection of asanas based on the first form's returned parameters, types/subtypes; each pose is a link that will create a new row in the join table, asanas_sequences. This partial would appear in both new_ and update_ forms. 
+
+Would each action method in turn pass the :asana_group param?  I need to instantiate a new asanas_sequence in the sequence's controller (using @sequence.posture.asana.build) for each click of an asana name.  Then I need to update the Sequence instance by creating the new posture (association to AsanasSequence model) with the sequence_id of the Sequence's id and asana_id of the clicked asana.  OK.  
+Then I need to keep a running list of the poses referenced by the postures that are children of that sequence in a list that can be turned into a drag-and-drop list later.
+

@@ -1,0 +1,310 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background:  #eee9df url(../images/BackgroundForwardBend.gif) no-repeat top center;
+	font-size: 15px;
+	color: #390507;
+}
+
+body, th, td, input, textarea, select, option {
+	font-weight: normal;
+	font-family: Verdana, Helvetica, Arial, sans-serif; 
+	
+}
+fieldset   {
+	font-family: Times, Palatino, serif;   
+	font-size:1.05em;
+}
+h1, h2, h3 {
+	font-weight: normal;
+	color: #05080c;
+}
+
+h1 {
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: 2em;
+	font-family: Garamond, Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+	text-transform: lowercase;
+	letter-spacing: +1px;
+	font-size: 1.5em;
+	font-family: Garamond, Georgia, "Times New Roman", Times, serif;
+}
+
+h3 {
+	font-size: 1em;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+   
+h4 {
+	font-size: 1.2em;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+p, ul, ol {
+	line-height: 200%;
+	font-weight: normal;
+	letter-spacing: +1px;
+	font-size:.9em;
+}
+
+blockquote {
+	padding-left: 1em;
+}
+
+blockquote p, blockquote ul, blockquote ol {
+	line-height: normal;
+	font-style: italic;
+}
+
+a {
+	color: #1E0605;  
+	text-decoration:none;   
+	background-color:none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #A82500;
+}
+  
+.small {
+	font-size:.85em; 
+}
+/* Header */
+
+#header {
+	width: 960px;
+	height: 200px;
+	margin: 0 auto;
+   
+}
+
+#header h1, #header p {
+	margin: 0;
+	color: #660000;
+}
+
+#header h1 {
+	font-size: 30px;
+}
+
+
+#header h1 {
+	padding-top: 100px;
+}
+
+#header a {
+	color: #393B85;
+}
+
+/* Page */
+
+#page {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* Content */
+
+#content {
+	float: left;
+   
+}
+
+.post {
+	padding: 0 0 20px 0;  
+	width: 400px;
+	float: left; 
+}  
+
+.post-wide {
+	padding: 0 0 20px 0;  
+	width: 700px;
+	margin-top: 5px;
+	float: left; 
+}
+.post h1 {
+	font-variant: small-caps;
+	font-size: small;
+} 
+
+.post ul li {
+	list-style: disc;
+}
+.title {
+	margin: 0;
+	border-bottom: 0 solid #7B9418;
+	font-size: 24px;
+	color: #333333;
+}
+
+.byline {
+	margin: 0;
+	color: #D79B00;
+}
+
+.meta {
+	text-align: right;
+	color: #646464;
+}
+
+.meta .more {
+	padding-left: 20px;
+	background: url(images/img03.gif) no-repeat left center;
+}
+
+.meta .comments {
+	padding-left: 20px;
+	background: url(images/img04.gif) no-repeat left center;
+}
+
+.asana-image {
+	float:right;
+} 
+
+.flash-notice  {
+	color: #8e310c;    
+	font-weight:bold;
+}
+
+.toggler {
+	text-align:right;
+	font-size:smaller
+ }
+/* Sidebar */
+
+.sidebar {
+	float: right;
+	width:200px;
+	margin-top: 100px;
+	margin-left: 20px; 
+	font-size: .9em;
+	text-align: right;
+}
+.menu {
+	float: right;
+	width:200px;
+	margin-top: 0;
+	margin-left: 20px; 
+	font-size: .9em;
+	text-align: right;
+}
+.sidebar ul, .menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar li ul, .menu li ul {
+	padding: 15px 0;
+}
+
+
+
+.sidebar h2, .menu h2 {
+	margin: 0;
+	padding: 5px 0 0 0;
+	color: #660000;	/*border-bottom: 2px solid #7B9418;*/
+}
+
+a  {
+	text-decoration: none;
+}
+
+.sidebar a:hover {
+}
+
+.asana-image {
+	float:right;
+   /* border: thin black solid; */ 
+	padding-right, padding-left:1em;  
+	margin-top:0;
+	margin-right:5em;
+} 
+.asana-list-image {  
+	text-align:right;
+	vertical-align: text-top;
+	margin-left:200px
+}
+.asana-instruction {
+	line-height: 1.5em;
+	font-variant: small-caps;
+}  
+
+
+/* Ajax classes and id's */ 
+.hover { 
+ color: aqua; 
+} 
+#sequence-list li { 
+list-style: none; 
+cursor: -moz-grab; 
+} 
+.draggy-posture, .index-posture { 
+border: 1px solid gray;  
+list-style: none; 
+padding:1em;
+
+}
+
+errormsg {
+	font-variant: small-caps;
+	color: #743300;
+  }
+/* USER bar */     
+
+#user_bar {  
+   	color:  #333333;  
+	clear: both;
+	width: 960px;
+	margin: 0 auto;
+	padding: 20px 0;
+   	text-align: left;
+	font-size: .8em;
+	/*border-bottom: 2px solid #7B9418; */
+	/*height:50px;
+		position:absolute;
+		top:0;  */
+}
+
+    
+#user-bar-greeting { 
+        
+		   
+			font-weight: bold;
+			color:  #4D4D4D;   
+		   
+}
+
+
+#user-bar-action      { 
+              
+	 }
+
+
+/* Footer */
+
+#footer {
+	clear: both;
+	width: 960px;
+	margin: 0 auto;
+	padding: 20px 0;
+	border-top: 2px solid #7B9418;
+	/*background: url(images/img07.gif) repeat-x;    */
+	text-align: center;
+	font-size: smaller;
+}
+#header p {
+	color: #3E4B0A;
+}

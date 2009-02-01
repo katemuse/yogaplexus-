@@ -1,0 +1,10 @@
+<%= render :partial => 'shared/_postDiv' %>   
+<h1>User_observations</h1>       
+<% for asana in @asanas %> 
+<% if asana.user_observations %>
+	<h2>User observations for <%=h asana.sanskrit %>:</h2>
+                                          <%= render(:partial => "list", :locals=>{:asana=>asana}) %>
+<% end %>  
+<% end %>  
+
+<%= render :partial => 'shared/_postDivEnd' %>  

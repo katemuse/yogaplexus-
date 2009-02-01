@@ -1,0 +1,8 @@
+<div class="post-wide">   
+ 
+<% for user in @users %>
+	<h2><%=link_to user.name, user_path(user) %>:</h2> <p>joined <%=h time_ago_in_words(user.created_at) %> ago.  <% if user.school %><%=h user.school %> school.<% end %></p> 
+		
+<% end %>  
+
+</div >

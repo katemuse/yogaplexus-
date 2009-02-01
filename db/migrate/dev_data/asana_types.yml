@@ -1,0 +1,52 @@
+Lunges: 
+    id: 1
+    name: Lunge
+    description: Lunges include Virabhadrasana or Warrior poses, named after the great warrior, Virabhadra.  In all variations, the front foot is front foot is parallel to side of the mat and the back foot arch is in line with front heel, angled 15°-45° out. The front thigh spins externally to move the knee directly over the second toe.  The back spins thigh internally, and provided the stance is a lunge, the back heel and outer edge of the back foot ground firmly into the floor. Vira III and Ardrachandrasana balance on the front foot, but the Warrior principles remain the same.  Form I postures like Vira I and III steer the pelvis toward perpendicular to the line of the front thigh; which Form II posture open the pelvis toward the side edge of the mat.  In other lunges such as ashwa sanchalanasana or low lunge, the back heel is up and the metatarsal pushes evenly into the floor. 
+ForwardBends: 
+    id: 2
+    name: Forward bend
+    description: Forward bends flex the spine, opening the back and lengthening the hamstrings
+BackBends:  
+    id: 3
+    name: Back bend
+    description: Back bends extend the spine, opening the front of body, lengthening the psoas muscles.  Care must be taken not to crunch the more delicate cervical spine.
+Twists:   
+    id: 4
+    name: Twist
+    description: Twists, better described as spirals through the spine, generally fix the spinal position at the tail or the head and rotate the other end of the spine. 
+Sidebends: 
+    id: 5
+    name: Sidebend
+    description: Sidebends, as their name suggests, bends the spine sideways.
+Restorative: 
+    id: 6
+    name: Restorative pose
+    description: Restorative Poses allow gravity to support the body, and thereby achieve deep release.
+Core:   
+    id: 7
+    name: Core strengthening pose 
+    description: Poses that focusing on the core abdomenal and back muscles not only strengthen but also help articulate these muscles and massage the organs beneath them.  
+Arm balances:  
+    id: 8
+    name: Arm balance
+    description: Employ deep abdomenal muscles and arm strength to balance all the weight on the palms of the hands.
+Balancing:  
+    id: 9
+    name: Balancing pose
+    description: All the weight of the body supported on one foot.
+Hip Openers: 
+    id: 10
+    name: Hip opener
+    description: Hip openers release tension in the assa tabulum, where the femur meets the pelvis, and gives greater freedom to the joint
+Inversions:  
+    id: 11
+    name: Inversion    
+    description: The body is upside down and thus gravity works in the opposite direction from the usual
+Pranayama:  
+    id: 12
+    name: Pranayama
+    description: Breathing exercise.  Breathing is at the heart of all asanas, and pranayama helps refine and deepen the breath.
+Meditative:
+    id: 13
+    name: Meditative
+    description: Each of these poses provide a good physical context for  meditation.

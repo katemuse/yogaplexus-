@@ -1,0 +1,11 @@
+
+ 
+<% if @asana.user_observations %>
+<% for uo in @asana.user_observations %> 
+<h4><%=h uo.title %>   </h4> 
+<p class="byline"><small>Created by <%=link_to uo.user.name, user_path(uo.user) %> <%=h time_ago_in_words(uo.created_at) %></small> </p>
+<p><%= simple_format(uo.comment) %></p>
+<% end %> <!-- end for   -->
+<% end %> <!-- end if    -->
+
+

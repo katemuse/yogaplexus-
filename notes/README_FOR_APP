@@ -1,0 +1,22 @@
+Catherine Musinsky
+cscie168 2008
+Yoga Plexus
+
+12-15-08 implemented acts_as_list for the postures in any sequence, tricky because the only "child" I could use as a list-item was based on the join table, asanas_sequences.  The Asanas couldn't be used because each belonged to many sequences, and would have a different position in each.   I worked it out.  When I call an asana from a sequence it's @mysequence.posture.asana.english, for example.  To reorder and play with list, use @mysequence.posture.first,   @mysequence.posture.lower_item,  @mysequence.posture.move_higher,  @mysequence.posture.first,  @mysequence.posture.move_to_top, etc., and refer to list-relative asanas as for example @mysequence.posture.lower_item.asana.sanskrit.
+
+To do: 
+figure out submission path from login page, where to enter the destination.  Sessions_controller "create" def sends you to redirect_back_or_default('/').  What does this mean?  Should I change the default to Homepage if logged_in? and to Index if not?  Sounds good to me.  Lost line in routes where I can set default page. 
+How to implement a user's "home page": Do I do this in Users?  Do I do additional RESTFUL methods in Users, like "home" and then create a homepage under Users?
+@user will be the object and its sequences @user.sequences, etc.etc.  
+
+How to implement asana-sequencer: do I do this in Edit Sequence (yes)?  Do I use the same interface (elaborated form using drop and drag from a grand collapsible list) in New and Edit Sequence? 
+
+How do I implement the various types of sequence views, in sequence/Show?  there needs to be a concise list and one by one the asanas need to be able to "explode" and print out in whichever way they are exploded.  A print css needs to be designed.
+
+How do I implement administrative duties like creating new asanas, types and subtypes?
+
+OH- a change is that asana_type actually refers to spinal direction, and asana_subtype refers to starting position.  Instead of being associated heirarchically, each asana refers to one of each, and can be searched on the basis of one or both.  I'll make it look like type= and subtype by listing type first, then "under" each type, subtype or starting positions will only include those asanas that correspond to both.  
+
+BIG todo is obviously drag and drop.
+another one is the damn css.
+

@@ -1,0 +1,13 @@
+<% unless params[:action] =~ /^(index|home)$/
+  @title = "#{params[:action]}  #{params[:controller].singularize }" 
+end
+if  (params[:action] =~ /^index$/)  
+	  @title = "#{params[:controller]}" 
+elsif params[:action] =~ /^home$/    
+			@title = "home"
+end %>              <!-- this doesn't seem to work.  title remains "Yoga Plexus" on every page    -->
+
+
+
+<div class="post">
+		<h2 class="title"></h2>

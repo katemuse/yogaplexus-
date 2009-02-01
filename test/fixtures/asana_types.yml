@@ -1,0 +1,79 @@
+--- 
+asana_types_005: 
+  name: Sidebend
+  updated_at: 2009-01-19 03:03:18
+  id: "5"
+  description: Sidebends, as their name suggests, bends the spine sideways.
+  created_at: 2009-01-19 03:03:18
+asana_types_006: 
+  name: Restorative pose
+  updated_at: 2009-01-19 03:03:18
+  id: "6"
+  description: Restorative Poses allow gravity to support the body, and thereby achieve deep release.
+  created_at: 2009-01-19 03:03:18
+asana_types_007: 
+  name: Core strengthening pose
+  updated_at: 2009-01-19 03:03:18
+  id: "7"
+  description: Poses that focusing on the core abdomenal and back muscles not only strengthen but also help articulate these muscles and massage the organs beneath them.
+  created_at: 2009-01-19 03:03:18
+asana_types_008: 
+  name: Arm balance
+  updated_at: 2009-01-19 03:03:18
+  id: "8"
+  description: Employ deep abdomenal muscles and arm strength to balance all the weight on the palms of the hands.
+  created_at: 2009-01-19 03:03:18
+asana_types_009: 
+  name: Balancing pose
+  updated_at: 2009-01-19 03:03:18
+  id: "9"
+  description: All the weight of the body supported on one foot.
+  created_at: 2009-01-19 03:03:18
+asana_types_010: 
+  name: Hip opener
+  updated_at: 2009-01-19 03:03:18
+  id: "10"
+  description: Hip openers release tension in the assa tabulum, where the femur meets the pelvis, and gives greater freedom to the joint
+  created_at: 2009-01-19 03:03:18
+asana_types_011: 
+  name: Inversion
+  updated_at: 2009-01-19 03:03:18
+  id: "11"
+  description: The body is upside down and thus gravity works in the opposite direction from the usual
+  created_at: 2009-01-19 03:03:18
+asana_types_012: 
+  name: Pranayama
+  updated_at: 2009-01-19 03:03:18
+  id: "12"
+  description: Breathing exercise.  Breathing is at the heart of all asanas, and pranayama helps refine and deepen the breath.
+  created_at: 2009-01-19 03:03:18
+asana_types_001: 
+  name: Lunge
+  updated_at: 2009-01-19 03:03:18
+  id: "1"
+  description: "Lunges include Virabhadrasana or Warrior poses, named after the great warrior, Virabhadra.  In all variations, the front foot is front foot is parallel to side of the mat and the back foot arch is in line with front heel, angled 15\xC2\xB0-45\xC2\xB0 out. The front thigh spins externally to move the knee directly over the second toe.  The back spins thigh internally, and provided the stance is a lunge, the back heel and outer edge of the back foot ground firmly into the floor. Vira III and Ardrachandrasana balance on the front foot, but the Warrior principles remain the same.  Form I postures like Vira I and III steer the pelvis toward perpendicular to the line of the front thigh; which Form II posture open the pelvis toward the side edge of the mat.  In other lunges such as ashwa sanchalanasana or low lunge, the back heel is up and the metatarsal pushes evenly into the floor."
+  created_at: 2009-01-19 03:03:18
+asana_types_013: 
+  name: Meditative
+  updated_at: 2009-01-19 03:03:18
+  id: "13"
+  description: Each of these poses provide a good physical context for  meditation.
+  created_at: 2009-01-19 03:03:18
+asana_types_002: 
+  name: Forward bend
+  updated_at: 2009-01-19 03:03:18
+  id: "2"
+  description: Forward bends flex the spine, opening the back and lengthening the hamstrings
+  created_at: 2009-01-19 03:03:18
+asana_types_003: 
+  name: Back bend
+  updated_at: 2009-01-19 03:03:18
+  id: "3"
+  description: Back bends extend the spine, opening the front of body, lengthening the psoas muscles.  Care must be taken not to crunch the more delicate cervical spine.
+  created_at: 2009-01-19 03:03:18
+asana_types_004: 
+  name: Twist
+  updated_at: 2009-01-19 03:03:18
+  id: "4"
+  description: Twists, better described as spirals through the spine, generally fix the spinal position at the tail or the head and rotate the other end of the spine.
+  created_at: 2009-01-19 03:03:18

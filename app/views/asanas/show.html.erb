@@ -1,0 +1,62 @@
+<div class="post-wide">
+<% if flash[:notice] %> 
+<h4 class="flash-notice"><%= flash[:notice] %>   </h5> 
+<% end %>
+<h4>
+
+  <%=h @asana.sanskrit %>
+</h5>
+
+<p>
+  <b>English:</b>
+  <%=h @asana.english %>
+</p>
+
+<p>
+  <b>Basic instruction:</b>
+  <%=h @asana.basic_instruction %>
+</p>
+<div class="asana-image">
+	 <% if @asana.picture %>   
+		    <%= picture_for(@asana, :medium) %>
+		<% end %>
+	    </div>
+
+   <% if @asana.asana_type  %>
+	   <p>spinal direction: <%=h @asana.asana_type.name %> </p> 
+   <% end %>
+	<% if @asana.asana_subtype %>
+		<p>starting position: <%=h @asana.asana_subtype.name %></p>
+	 <%  end  %>     
+     
+	<% comments = @asana.user_observations %> 
+	<h3>User comments:</h3> 
+	     <% if comments %>
+		<% for comment in comments %>   
+			 <h2> <%=h comment.title.capitalize %> </h3> <small>posted on 
+			<%=h comment.created_at.to_formatted_s(:long_ordinal) %> by 
+			<%= link_to comment.user.name,  user_path(comment.user.id) %>, a <i> <%= comment.user.school %> </i>practitioner</small></p>
+			<p>
+				   <%= simple_format(comment.comment) %>  
+			</p>
+			<% end %>
+			<% end %>
+
+        <% if current_user %>
+  <div class="index-posture"><%= link_to_remote 'Write your own comment',
+			  :url => {:action => :add_user_observation,
+						:asana_id => @asana.id,
+						:user_id => current_user.id							   
+						
+						}, 
+			   :update => "user_observations_form" %>
+        <%  end %>             
+        <div id= "user_observations_form" >    
+			<%=  %>    <!-- render :partial => "user_observ_form"   -->
+		</div> 
+   </div>
+     <p></p>
+
+<%= link_to 'Edit', edit_asana_path(@asana) %> |
+<%= link_to 'List', asanas_path %>
+</div>

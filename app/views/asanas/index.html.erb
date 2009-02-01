@@ -1,0 +1,59 @@
+<div class = "post-wide">
+<h2>Listing asanas</h2>
+
+<% for asana in @asanas %>
+  
+<div class="index-posture"><%= link_to "#{asana.sanskrit.capitalize} (#{asana.english.capitalize})", asana_path(asana)  %>  
+<% if asana.picture %>             
+		<div class="asana-image">        
+			<%= picture_for(asana) %>      
+		</div> 
+	<% end %>
+
+<small>	<%= link_to_remote 'toggle details',
+		  :url => {:action => :reveal_details, 
+					:asana => asana						   
+					}, 
+		   :update => "asana_details_#{asana.id}",
+		 :complete => visual_effect(:toggle_slide, "asana_details_#{asana.id}",:duration => 0.5) %> 
+ 	
+		    <!-- link_to_remote 'hide details',
+		   			  :url => {:action => :hide_details, 
+		   						:asana => asana    						
+		   						}, 
+		   			   :update => "asana_details_#{asana.id}",
+		   			 	:complete => visual_effect(:slide_up, "asana_details_#{asana.id}", :duration => 1.0)                       --> 
+	   
+	<% if is_admin? %>         
+	 <%= link_to 'delete',{ :action=>:destroy, 
+						:id => asana.id}, 
+						:confirm=> "are you sure?"  %>
+	   <% end %></small>
+	
+	
+    <!-- <p>basic instruction: <%=h asana.basic_instruction %> 
+                              --> 
+
+  
+      	 <div id="asana_details_<%= asana.id %>" style="display:none;">
+			<%= render :partial => "sequences/asana_details", :locals => {:asana => asana } %>   
+		</div> 
+   
+			
+	<% if asana.asana_type && asana.asana_subtype %>
+   <p style="font-size: small">spinal direction: <%=h asana.asana_type.name %> </p>
+<p style="font-size: small">starting position: <%=h asana.asana_subtype.name %></p> 
+	   <% end %>   
+   <p> <small>
+    <%= link_to 'Show', asana %> 
+	<% if is_admin? %> | <%= link_to 'Edit', edit_asana_path(asana) %> | <%= link_to 'Destroy', asana, :confirm => 'Are you sure?', :method => :delete %>
+         <% end %>
+</small>  </p>
+             	</div>   
+<% end %>
+
+
+<% if is_admin? %><br />
+
+<%= link_to 'New asana', new_asana_path %>      <% end %>
+</div>      	

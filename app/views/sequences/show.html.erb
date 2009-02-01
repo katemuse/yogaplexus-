@@ -1,0 +1,19 @@
+<div class="post-wide">   
+
+
+
+		<h2 class="title"><%=h @sequence.title %></h2>  
+		<p class="byline"><small>Created <%=h time_ago_in_words(@sequence.created_at) %> ago by 
+		<%= link_to @author.name,  user_path(@author)   %></small></p>
+	 
+	   <% if @poses.any? %>   
+        	<%= render :partial => 'sequence_list', :locals => {:author => @author, :sequence => @sequence} -%>                        
+       <% end %>   
+
+		<% if @author == current_user %> 
+			<%= link_to 'Add poses', {:action=>:edit, :controller=>:sequences, :id=> @sequence.id} %> |   
+		<% end %>         
+<%= link_to 'List', {:action=>:index, :controller=>:sequences} %>
+
+
+</div>   

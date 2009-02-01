@@ -1,0 +1,58 @@
+ <fieldset> 
+  <legend>select an asana by category</legend> 
+   
+<!--   The following code lists asana types (mainly relating to spinal position) and asana subtypes (starting positions), and asks that the user use these categories to filter the list of asanas, listed below them in a partial called "_filtered_asanas". -->
+        
+	   <% for cat in  AsanaType.find(:all) %>  
+			<%= link_to_remote cat.name,  
+			 {
+			  :url => {:action => :accept_asana_categories_and_return_asanas,
+				 		:controller => :sequences,
+						:asana_type_id => cat.id, 
+						:sequence_id => @sequence.id },
+						:update => 'filtered_asanas', 
+						:complete => visual_effect(:highlight, 'filtered_asanas',
+					        :duration => 1)
+						   }, 
+			  :href => url_for( :action =>  :accept_asana_categories_and_return_asanas,
+						 :controller => :sequences,
+							:asana_type_id => cat.id, 
+							:sequence_id => @sequence.id )  
+			%>  | 
+       <% end %>    
+	 <p>or by starting position </p> 
+			<% for sub in  AsanaSubtype.find(:all) %>  
+					<%= link_to_remote sub.name,  
+					{
+					  :url => {:action => :accept_asana_categories_and_return_asanas,
+						 		:controller => :sequences,
+								:asana_subtype_id => sub.id, 
+								:sequence_id => @sequence.id}, 
+					   :update => 'filtered_asanas',
+						:complete => visual_effect(:highlight, 'filtered_asanas',
+						        :duration => 1) 
+						   }, 
+			            :href => url_for( :action =>  :accept_asana_categories_and_return_asanas,
+						:controller => :sequences,
+						:asana_subtype_id => sub.id, 
+						:sequence_id => @sequence.id )               
+				%>  | 
+	       <% end %>
+  <div> 
+
+	   
+  </div>  
+  <p></p> 
+<fieldset>  
+
+<legend>select a pose to add it to your sequence </legend>  
+
+<div id="filtered_asanas">
+ 	<%= render :partial => 'filtered_asanas' %>
+</div> <br/>
+
+
+ </div>    
+</fieldset>    
+ </fieldset>    
+  

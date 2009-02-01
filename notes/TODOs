@@ -1,0 +1,7 @@
+add flash messages everywhere
+control expansion of details when you add a new posture to the sequence
+control what details appear under which pose 
+why doesn't drag and drop work from (??)
+look at redirecting to edit at end of add_to_sequence.
+                                 
+new trick (if it works): render with :collection

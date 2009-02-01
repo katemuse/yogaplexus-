@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<title>
+			bow / dhanurasana&nbsp;
+		</title>
+	</head>
+	<body bgcolor="#333333" text="#003366" link="#CCCCCC" vlink="#003366">
+		<table width="550" border="0" cellpadding="0" cellspacing="0" bgcolor="#6699CC">
+			<tr>
+				<td width="275">
+					<img src="images/tpixel.gif" width="10" height="15">
+					<table width="520" border="0" cellspacing="0" cellpadding="6" align="center">
+						<tr>
+							<td colspan="2">
+								<img src="titles/bow.gif" width="520" height="23" alt="bow / dhanurasana&nbsp;">
+							</td>
+						</tr>
+					</table>
+					<table width="520" border="0" cellspacing="0" cellpadding="5" align="center">
+						<tr>
+							<td width="91">
+								<center>
+									<img src="asanapics/alice/bow1.jpg" width="100" height="90" align="bottom" border="0" naturalsizeflag="3">
+								</center>
+							</td>
+							<td width="362">
+								<img src="titles/benefits.gif" width="83" height="14" align="bottom" border="0" naturalsizeflag="0"><br>
+								<img src="images/tpixel.GIF" width="280" height="3" align="bottom" border="0" naturalsizeflag="0"><br>
+								<font size="2" face="Arial">Bow pose strengthens the core body and opens the chest. Bow stimulates the endocrine, nervous, circulatory, respiratory and reproductive systems.</font>
+							</td>
+						</tr>
+					</table>
+					<table width="520" border="0" cellspacing="2" cellpadding="5" align="center">
+						<tr>
+							<!--1-->
+							<td width="91%">
+								<font size="2" face="Arial"><b><img src="images/1.GIF" width="18" height="18" align="middle" border="0" naturalsizeflag="3"></b> Lie on your belly, with the chin on the floor, arms along side your body and legs together.</font>
+							</td>
+						</tr>
+						<tr>
+							<!--2-->
+							<td width="91%">
+								<font size="2" face="Arial"><b><img src="images/2.GIF" width="18" height="18" align="middle" border="0" naturalsizeflag="3"></b> Bend both knees and reach the hands back to hold onto the feet or ankles.</font>
+							</td>
+						</tr>
+						<tr>
+							<!--3-->
+							<td width="91%">
+								<font size="2" face="Arial"><b><img src="images/3.GIF" width="18" height="18" align="middle" border="0" naturalsizeflag="3"></b> Inhale and kick the legs into the arms to lift the legs, head and chest off of the floor.</font>
+							</td>
+						</tr>
+						<tr>
+							<!--4-->
+							<td width="91%">
+								<font size="2" face="Arial"><img src="images/4.GIF" width="18" height="18" align="middle" border="0" naturalsizeflag="3"> Keep the neck in line with the spine and relax the shoulders down from the spine. Lightly press the knees together, keeping them from splaying out to the sides.</font>
+							</td>
+						</tr>
+						<tr>
+							<td width="91%">
+								<font size="2" face="Arial"><img src="images/5.GIF" width="18" height="18" align="middle" border="0" naturalsizeflag="3"> Breathe and hold for 2-6 breaths, trying not to rock excessively on the belly as you breathe.</font>
+							</td>
+						</tr>
+						<tr>
+							<td width="91%">
+								<font size="2" face="Arial"><img src="images/6.GIF" width="18" height="18" align="middle" border="0" naturalsizeflag="3"> To release: exhale and slowly lower the chest, head and thighs to the floor. Release the arms and legs down to the floor. Turn the head to one side and rest.</font>
+							</td>
+						</tr><!--5-->
+						<!--6-->
+						<tr>
+							<!--variation-->
+							<td width="91%">
+								<font size="2" face="Arial"><img src="images/variation.gif" width="99" height="15" align="middle" border="0" naturalsizeflag="3"> If you cannot reach both feet with the hands either wrap a yoga strap around the ankles and hold on with both hands or practice <a href="halfBow.html">half bow pose</a>.</font>
+							</td>
+						</tr>
+						<tr>
+							<!--contraindication-->
+							<td width="91%">
+								<font size="2" face="Arial"><img src="images/contra2.gif" width="125" height="15" align="middle" border="0" naturalsizeflag="3"> Recent or chronic injury to the knees, hips, arms or shoulders, pregnancy and recent abdominal surgery.</font>
+							</td>
+						</tr>
+						<tr>
+							<!--vinyasa-->
+							<td width="91%">
+								<font size="2" face="Arial"><img src="images/vinyasa.gif" width="71" height="15" align="middle" border="0" naturalsizeflag="3"> <a href="cobra.html">cobra</a>, <a href="locust.html">locust</a>, <a href="boat.html">boat</a>, <a href="crocodile.html">croccodile</a>, side bow.</font>
+							</td>
+						</tr>
+					</table><img src="images/tpixel.gif" width="10" height="50">
+				</td>
+			</tr>
+			<tr>
+				<td width="275" bgcolor="#000000">
+					<table width="540" border="0" cellspacing="0" cellpadding="8" align="center">
+						<tr>
+							<td>
+								<div align="left">
+									<font color="#CCCCCC" size="1" face="Arial">Ahimsa, the yogic practice of non violence must be adhered to when engaging in the practice of hatha yoga. Respect your body's limitations and inner wisdom, if something feels wrong or dangerous, please do not do it.<br>
+									<img src="images/tpixel.gif" width="10" height="10"><br>
+									Please consult your health care practitioner before starting a yoga, pranayama or other exercise program.<br>
+									<img src="images/tpixel.gif" width="10" height="10"><br>
+									All contents copyright 2001-2002 Timothy Burgin and Yogabasics.com. All rights reserved. Om shanti peace.</font>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

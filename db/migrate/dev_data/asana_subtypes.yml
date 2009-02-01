@@ -1,0 +1,28 @@
+All fours: 
+    id: 1
+    name: Tabletop
+    description: Start on one's hands and knees, weight distributed between the palms and the fronts of the lower leg.  Feet are either vertical, toes curled under with only the soles of the toes against the floor, or flat with their tops against the floor.
+Kneeling:
+    id: 2
+    name: Kneeling 
+    description: Start kneeling, weight distributed between the knees, shins and top of the feet or with the toes curled under (rare).
+Prone: 
+    id: 3
+    name: prone (advasana)  
+    description: Start lying on one's belly, feet straight and parallel
+Seated:
+    id: 4
+    name: Seated (asinam)
+    description: Start sitting, both sit bones evenly weighted
+Standing:
+    id: 5
+    name: Standing (ardhva) 
+    description: Start standing, weight on the soles of one or both feet
+Supine:  
+    id: 6
+    name: Supine (supta)
+    description: Start lying on one's back 
+Lunge:  
+    id: 7
+    name: Lunge 
+    description: Lunges include Virabhadrasana or Warrior poses, named after the great warrior, Virabhadra.  In all variations, the front foot is front foot is parallel to side of the mat and the back foot arch is in line with front heel, angled 15°-45° out. The front thigh spins externally to move the knee directly over the second toe.  The back spins thigh internally, and provided the stance is a lunge, the back heel and outer edge of the back foot ground firmly into the floor. Vira III and Ardrachandrasana balance on the front foot, but the Warrior principles remain the same.  Form I postures like Vira I and III steer the pelvis toward perpendicular to the line of the front thigh; which Form II posture open the pelvis toward the side edge of the mat.  In other lunges such as ashwa sanchalanasana or low lunge, the back heel is up and the metatarsal pushes evenly into the floor.                                            

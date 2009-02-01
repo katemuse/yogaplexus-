@@ -1,0 +1,18 @@
+<% if @asana_group %> <!--  this partial holds the asanas listed and filtered by category or starting position in the "asana_sequencer" partial.  It could in an alternative implementation start with all the asanas listed, which could then be filtered down by the two categories. -->
+  
+	<% for asana in @asana_group %> 
+		<%= link_to_remote asana.english.capitalize, 
+		 {
+		  :url => {:action => :add_to_sequence, 
+					:asana_id => asana.id, 
+					:sequence_id => @sequence.id}, 
+		   :update => 'sequence-list'
+			},
+			:href => url_for(:action => :add_to_sequence, 
+							 :controller => :sequences, 
+							 :asana_id => asana.id, 
+							 :sequence_id => @sequence.id)
+		%>
+		<br/>
+	<% end %>   
+<% end %>

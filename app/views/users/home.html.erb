@@ -1,0 +1,37 @@
+
+
+<% @title="#{@user.name}'s Yoga Plexus home" %>
+
+<div class="sidebar">
+	   
+	   <h2 class="title">Sequences</h2>    
+		<p class="byline"><small>Today is <%=h Date.today %>. </small><!-- <a href="#">admin</a> | <a href="#">Edit</a></small> --></p> 
+		
+		
+		<div class="entry">
+			     
+				<% for seq in @sequences %>
+					<p> <%= link_to seq.title, :controller => :sequences, :action => :show, :id=> seq.id %> 
+					   <small><%= link_to "edit", {:action=>:edit, :controller=>:sequences, :id=>seq.id} %>
+								<%= link_to "delete",  {:action=>:destroy, :controller=>:sequences, :id=>seq.id}, {:prompt => "you're sure about this?"} %> </small>
+						</p>
+					<% end %>   
+					
+				   <p> <%= link_to 'new sequence',  {:action=>:new, :controller=>:sequences} %>    </p>
+		 </div>
+		 
+		 <h3><%= link_to "my profile", user_path(@user) %>    </h3>
+</div>		   		
+
+	
+	<div class="post">   
+		<% if @user.user_observations.count > 0 %>
+		<h5> My comments on Asanas</h5> 
+		  <% for comment in @user.user_observations %> 
+		<h6>about <%=h comment.asana.english %>:</h6>
+		<p><strong><%=h comment.title %>:</strong> <%= simple_format(comment.comment) %> </p>
+		<% end  %>
+	  <% end%>  
+   	</div>
+	</div>
+  

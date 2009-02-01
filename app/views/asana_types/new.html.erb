@@ -1,0 +1,20 @@
+<div class="post-wide">    
+	<h2>New Asana Type by Spinal Direction</h2>
+
+	<% form_for(AsanaType.new) do |f| %>
+		       <p>
+	  <%= f.label  :name %>: 
+	  <%= f.text_field :name, :size=>30 %>             
+	</p>
+	<p>
+	  <%= f.label :description  %>: <br/>
+	  <%= f.text_area  :description %>                       
+	</p>
+
+
+		<%= submit_tag 'create' %>
+	<% end %>
+
+
+<%= link_to 'List', asana_types_path %>
+ </div>

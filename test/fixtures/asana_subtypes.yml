@@ -1,0 +1,43 @@
+--- 
+asana_subtypes_001: 
+  name: Tabletop
+  updated_at: 2009-01-21 01:23:52
+  id: "1"
+  description: Start on one's hands and knees, weight distributed between the palms and the fronts of the lower leg.  Feet are either vertical, toes curled under with only the soles of the toes against the floor, or flat with their tops against the floor.  Arms and legs should be perpendicular to the floor and to the torso.
+  created_at: 2009-01-19 03:03:18
+asana_subtypes_002: 
+  name: Kneeling
+  updated_at: 2009-01-19 03:03:18
+  id: "2"
+  description: Start kneeling, weight distributed between the knees, shins and top of the feet or with the toes curled under (rare).
+  created_at: 2009-01-19 03:03:18
+asana_subtypes_003: 
+  name: prone (advasana)
+  updated_at: 2009-01-19 03:03:18
+  id: "3"
+  description: Start lying on one's belly, feet straight and parallel
+  created_at: 2009-01-19 03:03:18
+asana_subtypes_004: 
+  name: Seated (asinam)
+  updated_at: 2009-01-19 03:03:18
+  id: "4"
+  description: Start sitting, both sit bones evenly weighted
+  created_at: 2009-01-19 03:03:18
+asana_subtypes_005: 
+  name: Standing (ardhva)
+  updated_at: 2009-01-19 03:03:18
+  id: "5"
+  description: Start standing, weight on the soles of one or both feet
+  created_at: 2009-01-19 03:03:18
+asana_subtypes_006: 
+  name: Supine (supta)
+  updated_at: 2009-01-19 03:03:18
+  id: "6"
+  description: Start lying on one's back
+  created_at: 2009-01-19 03:03:18
+asana_subtypes_007: 
+  name: Lunge
+  updated_at: 2009-01-19 03:03:18
+  id: "7"
+  description: "Lunges include Virabhadrasana or Warrior poses, named after the great warrior, Virabhadra.  In all variations, the front foot is front foot is parallel to side of the mat and the back foot arch is in line with front heel, angled 15\xC2\xB0-45\xC2\xB0 out. The front thigh spins externally to move the knee directly over the second toe.  The back spins thigh internally, and provided the stance is a lunge, the back heel and outer edge of the back foot ground firmly into the floor. Vira III and Ardrachandrasana balance on the front foot, but the Warrior principles remain the same.  Form I postures like Vira I and III steer the pelvis toward perpendicular to the line of the front thigh; which Form II posture open the pelvis toward the side edge of the mat.  In other lunges such as ashwa sanchalanasana or low lunge, the back heel is up and the metatarsal pushes evenly into the floor."
+  created_at: 2009-01-19 03:03:18
