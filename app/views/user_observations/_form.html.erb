@@ -7,7 +7,8 @@
 <%= label  :user_observation, :comment, 'comment' %><br />   
   <%= text_area  :user_observation, :comment, :rows => '5' %>
 
-
+  <%= label  :user_observation, :school, 'school' %><br />   
+  <%= text_field  :user_observation, :school, :value => current_user.school %>
 <%= label  :user_observation, :asana_id, 'asana' %><br />   
  <%= collection_select :user_observation, :asana_id, @asanas, :id, :english, :selected_value => @asana %>    
                    

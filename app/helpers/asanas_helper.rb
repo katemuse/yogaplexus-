@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'open-uri'
-require 'nokogiri'
+#require 'nokogiri'
  
 module AsanasHelper   
    

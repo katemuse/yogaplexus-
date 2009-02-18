@@ -29,18 +29,41 @@
 		<p>starting position: <%=h @asana.asana_subtype.name %></p>
 	 <%  end  %>     
      
-	<% comments = @asana.user_observations %> 
+	<% comments = UserObservation.find_all_by_asana_id(@asana.id, :conditions => {:reply_to_id => nil}) %> 
 	<h3>User comments:</h3> 
 	     <% if comments %>
 		<% for comment in comments %>   
-			 <h2> <%=h comment.title.capitalize %> </h3> <small>posted on 
-			<%=h comment.created_at.to_formatted_s(:long_ordinal) %> by 
-			<%= link_to comment.user.name,  user_path(comment.user.id) %>, a <i> <%= comment.user.school %> </i>practitioner</small></p>
+			 <h2> <%=h comment.title.capitalize %> </h3> 
 			<p>
-				   <%= simple_format(comment.comment) %>  
-			</p>
+				   <%= simple_format(comment.comment) %>   	
+			  <% if comment.replies %> 
+			    <% for reply in comment.replies %>
+			<p style="font-size:smaller;" ><span style="font-style:italic;"> 
+				    <%= reply.comment %>  </span>
+			  <%= reply.user.name %></p>
+			 	<% end %> 
+		     <% end %>  
+				 <small>  <% if current_user %>  <i> <%= link_to_remote ' reply',
+								  :url => {:action => :add_reply,
+											:asana_id => @asana.id,
+											:user_id => current_user.id,						   
+                                             :reply_to_id => comment.id
+											}, 
+								   :update => "reply_form" %>    </i>
+				           
+					        <div id= "reply_form" >    
+								<%=  %>    <!-- render :partial => "reply_form"   -->
+							</div>   <% end %> </small>
+			<br /> 
+			<small>posted on 
+			<%=h comment.created_at.to_formatted_s(:long_ordinal) %> by <%= link_to comment.user.name,  user_path(comment.user.id) %>, a 
+												<i> <%= comment.user.school %> </i>practitioner</small>
+												
+							 
+										   
+										  	</p>
 			<% end %>
-			<% end %>
+		 <% end %>
 
         <% if current_user %>
   <div class="index-posture"><%= link_to_remote 'Write your own comment',
@@ -50,13 +73,16 @@
 						
 						}, 
 			   :update => "user_observations_form" %>
-        <%  end %>             
+                
         <div id= "user_observations_form" >    
 			<%=  %>    <!-- render :partial => "user_observ_form"   -->
-		</div> 
-   </div>
-     <p></p>
+		</div>    
+	  
+   </div>    
 
-<%= link_to 'Edit', edit_asana_path(@asana) %> |
+ <% end %> 
+     <p></p>
+<% if is_admin? %>
+<%= link_to 'Edit', edit_asana_path(@asana) %> |      <% end %>
 <%= link_to 'List', asanas_path %>
 </div>

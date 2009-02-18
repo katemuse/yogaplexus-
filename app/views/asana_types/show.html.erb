@@ -15,8 +15,8 @@
   <li style="list-type:none"><%=link_to asana.english, asana_path(asana)  %></li>   
         <% end %>
  </ul>      
-
-
-<%= link_to 'Edit', edit_asana_type_path(@asana_type) %> |
-<%= link_to 'List', asana_types_path %>
+              <p>
+<% if is_admin? %>
+<%= link_to 'Edit', edit_asana_type_path(@asana_type) %> |      <% end %>
+<%= link_to 'List', asana_types_path %>   </p>    
   </div>

@@ -125,7 +125,14 @@ class AsanasController < ApplicationController
     @asana = Asana.find(params[:asana]) 
     render :partial => "sequences/no_asana_details"  
   end          
-   
+  def add_reply      
+     @asanas = Asana.find(:all)
+     @asana = Asana.find(params[:asana_id])  
+     @user = User.find(params[:user_id]) 
+     @reply_to = UserObservation.find_by_id(params[:reply_to_id])
+     @user_observations = UserObservation.find_all_by_user_id(@user.id)
+     render :partial => "reply_form"
+  end 
    def add_user_observation      
       @asanas = Asana.find(:all)
       @asana = Asana.find(params[:asana_id])  

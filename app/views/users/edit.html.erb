@@ -2,7 +2,7 @@
 
 <h1>Edit Profile</h1>
 
-<% form_for :user do |f| -%>   <!-- restful route's not working!  it redirects to 'create' instead of 'update'.  I think this was not recommended anyway, an edit page for users.. . -->                                                                    
+<% form_for :user, :action => :update do |f| -%>   <!-- restful route's not working!  it redirects to 'create' instead of 'update'.  I think this was not recommended anyway, an edit page for users.. . -->                                                                    
 
 <p><%= f.label 'name' %><br/>
 <%= f.text_field :name %></p>	

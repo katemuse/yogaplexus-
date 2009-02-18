@@ -37,7 +37,8 @@ class SequencesController < ApplicationController
   # GET /sequences/1/edit
   def edit
     @sequence = Sequence.find(params[:id], :include =>:postures)  
-    @poses = @sequence.postures
+    @poses = @sequence.postures   
+    @author = @sequence.user 
     #@asana_group = Asana.find(:all)	#uncomment this to show all the asanas 
 				    					#in the _filtered_asanas partial 
 				    					#when the Show template first appears

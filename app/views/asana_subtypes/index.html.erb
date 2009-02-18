@@ -1,24 +1,17 @@
 <div class="post-wide">    
 	<h2>Asana Types by Starting Position</h2>
 
-<table>
-  <tr style="text-align:left">
-    <th width="15%" >Name</th>
-    <th width="60%">Description</th>
-   
-	
-  </tr>
+
 
 <% for asana_subtype in @asana_subtypes %>
-  <tr>
-    <td style="vertical-align:top"><%=h asana_subtype.name %></td>
-    <td><%=h asana_subtype.description %></td>
-   
-    <td style="vertical-align:top"><%= link_to 'Show', asana_subtype %> 
-	<% if is_admin? %><%= link_to 'Edit', edit_asana_subtype_path(asana_subtype) %> <%= link_to 'Destroy', asana_subtype, :confirm => 'Are you sure?', :method => :delete %><% end %></td>
-  </tr>
+  <h4><%=h asana_subtype.name %></h4>
+    <p><%=h asana_subtype.description %><br/>
+	
+              <small>
+    <%= link_to 'Show', asana_subtype %> 
+	<% if is_admin? %><%= link_to 'Edit', edit_asana_subtype_path(asana_subtype) %> <%= link_to 'Destroy', asana_subtype, :confirm => 'Are you sure?', :method => :delete %><% end %></small></p> 
+
 <% end %>
-</table>
 
 <% if is_admin? %><br />
 

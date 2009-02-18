@@ -17,7 +17,8 @@
 
 								<%= f.label :asana_id, 'asana' %>:    
 								 <%= f.collection_select  :asana_id, @asanas, :id, :english, :selected_value => @asana %>    
-								
+								  <%= f.label  :school, 'school' %><br />   
+								  <%= f.text_field :school, :value => current_user.school %>
 								           
 	<%= submit_tag 'update' %>
 <% end %>

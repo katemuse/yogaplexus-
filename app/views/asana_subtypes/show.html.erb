@@ -18,10 +18,10 @@
   <%= link_to "#{asana.sanskrit} (#{asana.english})", asana %> <br/>
 <% end %>
 </p>
-
+  <p> 
  
+  <% if is_admin? %> 
 
-
-<%= link_to 'Edit', edit_asana_subtype_path(@asana_subtype) %> |
-<%= link_to 'List', asana_subtypes_path %>
+<%= link_to 'Edit', edit_asana_subtype_path(@asana_subtype) %> |   <% end %>
+<%= link_to 'List', asana_subtypes_path %>           </p>
 </div>
